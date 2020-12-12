@@ -1,0 +1,123 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #969696;
+  margin-top: 20px;
+}
+
+.payment, .return-exchange, .size-grid {
+  line-height: 1.4;
+  padding: 30px 5px;
+}
+
+.payment__title, .return-exchange__title, .size-grid__title {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #969696;
+  text-align: center;
+}
+
+.payment__sub-title, .return-exchange__sub-title, .size-grid__sub-title {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #414141;
+}
+
+.payment__conditions, .return-exchange__conditions, .size-grid__conditions {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: #787878;
+}
+
+.payment__conditions__item + .payment__conditions__item, .return-exchange__conditions__item + .payment__conditions__item, .size-grid__conditions__item + .payment__conditions__item, .payment__conditions__item + .return-exchange__conditions__item, .return-exchange__conditions__item + .return-exchange__conditions__item, .size-grid__conditions__item + .return-exchange__conditions__item, .payment__conditions__item + .size-grid__conditions__item, .return-exchange__conditions__item + .size-grid__conditions__item, .size-grid__conditions__item + .size-grid__conditions__item {
+  margin-top: 15px;
+}
+
+.payment__conditions__image, .return-exchange__conditions__image, .size-grid__conditions__image {
+  display: inline-block;
+  width: 80px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.payment__conditions__image > img, .return-exchange__conditions__image > img, .size-grid__conditions__image > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.payment__conditions__adress, .return-exchange__conditions__adress, .size-grid__conditions__adress {
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+.payment__conditions__adress__item + .payment__conditions__adress__item, .return-exchange__conditions__adress__item + .payment__conditions__adress__item, .size-grid__conditions__adress__item + .payment__conditions__adress__item, .payment__conditions__adress__item + .return-exchange__conditions__adress__item, .return-exchange__conditions__adress__item + .return-exchange__conditions__adress__item, .size-grid__conditions__adress__item + .return-exchange__conditions__adress__item, .payment__conditions__adress__item + .size-grid__conditions__adress__item, .return-exchange__conditions__adress__item + .size-grid__conditions__adress__item, .size-grid__conditions__adress__item + .size-grid__conditions__adress__item {
+  margin-top: 15px;
+}
+
+.payment__free-shipping__title, .return-exchange__free-shipping__title, .size-grid__free-shipping__title {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+.payment__free-shipping__text, .return-exchange__free-shipping__text, .size-grid__free-shipping__text {
+  margin-top: 25px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: #787878;
+}
+
+.payment__text, .return-exchange__text, .size-grid__text {
+  margin-top: 25px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: #787878;
+}
+
+.payment__image-table, .return-exchange__image-table, .size-grid__image-table {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.payment__image, .return-exchange__image, .size-grid__image {
+  display: block;
+  width: 50%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.middle {
+  text-align: center;
+}
+
+.attention {
+  font-weight: bold;
+  text-align: center;
+}
+
+.telephone {
+  color: #414141;
+}
+/*# sourceMappingURL=information.component.css.map */

@@ -1,0 +1,65 @@
+.container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 80px 5px
+
+.payment 
+    &__title
+        font-size: 30px
+        color:  #313538
+        text-align: center
+    &__sum
+        padding-top: 40px
+        font-size: 25px
+        color:  #838383
+        text-align: center
+    &__sum-number
+    &__card-block
+        margin-top: 40px
+        display: flex
+        // max-width: 510px
+        // margin: 0 auto
+        justify-content: center
+    &__face-card, &__back-card
+        width: 360px
+        height: 225px
+        background-color: #eeeeee
+        border-radius: 10px
+        padding: 25px
+    &__card-number
+        margin-top: 40px
+    &__card-date
+        display: flex
+    &__card-year
+        margin-left: 20px
+    &__back-card
+        margin-left: 20px
+        padding: 0
+        background-color: #d6d6d6
+    &__black-line
+        margin-top: 25px
+        width: 100%
+        height: 50px
+        background-color: #414141
+    &__card-code
+        margin-top: 20px
+        margin-left: 220px
+    
+
+    &__button
+        display: block
+        font-size: 18px
+        margin: 0 auto
+        // width: 120px
+        margin-top: 30px
+        background-color: #313538
+        color: #ffffff
+        padding: 15px 15px
+        text-transform: uppercase
+        & + & 
+            margin-left: 30px
+        &:hover
+            background-color: #969696
+            transition: .2s
+            color: #ffffff
+            border-color:  #969696

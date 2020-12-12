@@ -1,0 +1,290 @@
+<div class="promotion-slider" style="height:45vw">
+    <carousel [cellsToShow]="'1'" [loop]="true" [dots]="true" [autoplay]="true" [autoplayInterval]="'7000'" [width]="'100%'" [height]="'100%'" [overflowCellsLimit]="'1'">
+        <div class="carousel-cell" style="width: 100%;">
+            <img style="object-fit: fill; " src="../../../assets/images-temporary/main-1.jpg">
+            <div class="carousel-cell__text-block">
+                <div class="container">
+                    <div class="carousel-cell__text">
+                        <div class="carousel-cell__text_reminder">Не пропусти</div>
+                        <div class="carousel-cell__text_main">Скажи привет Осени<br><b>Твой гид</b> в мир моды.</div>
+                        <div class="carousel-cell__text_sub">Таким образом постоянное информационно-пропагандистское обеспечение нашей деятельности.</div>
+                        <div class="carousel-cell__text_buttons">
+                            <button class="carousel-cell__text_button"><a routerLink="/blog" class="nav__item">Блог</a></button>
+                            <button class="carousel-cell__text_button white"><a routerLink="/catalog/all">Купить</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img style="object-fit: fill;" src="../../../assets/images-temporary/main-2.jpg">
+            <div class="carousel-cell__text-block">
+                <div class="container">
+                    <div class="carousel-cell__text second-slide">
+                        <div class="carousel-cell__text_sale">до -70 % на распродаже</div>
+                        <div class="carousel-cell__text_main ">Успей выбрать свой размер!</div>
+                        <div class="carousel-cell__text_buttons">
+                            <button class="carousel-cell__text_button "><a routerLink="/catalog/discount">Купить</a></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div class="carousel__grid">
+                <div class="carousel__grid_col">
+                    <img style="object-fit: fill;" src="../../../assets/images-temporary/main-3-1.jpg" alt="">
+                </div>
+                <div class="carousel__grid_col">
+                    <img style="object-fit: fill;" src="../../../assets/images-temporary/main-3-2.jpg" alt="">
+                </div>
+                <div class="carousel__grid_col">
+                    <div class="carousel__blue-background">
+                        <div class="blue-background__text">Главные тренды сезона<br>Во что одеты <b>fashion-блоггеры?</b><br><b>Кожаные брюки</b> - Must-have 2020-2021.</div>
+                        <div class="carousel-cell__text_buttons blue-background__buttons">
+                            <button class="carousel-cell__text_button "><a routerLink="/blog" class="nav__item">Читать</a></button>
+                        </div>
+                        <div class="blue-background__top-line"></div>
+                        <div class="blue-background__bottom-line"></div>
+                        <div class="blue-background__middle-line"></div>
+                        <div class="blue-background__left-line"></div>
+                        <div class="blue-background__right-line"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <img style="object-fit: fill;" src="../../../assets/images-temporary/main-3.jpg">
+            <div class="carousel-cell__text-block ">
+                <div class="third-slide-block">
+                    <div class="carousel-cell__text third-slide">
+                        <div class="carousel-cell__text_main">Главные тренды сезона<br>Во что одеты <b>fashion-блоггеры?</b><br><b>Кожаные брюки</b> - Must-have 2020-2021.</div>
+                        <div class="carousel-cell__text_buttons">
+                            <button class="carousel-cell__text_button ">Купить</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </carousel>
+</div>
+<div class="about-block">
+    <div class="container">
+        <div class="about-block__line"></div>
+        <h2 class="about-block__title">CATWALK – это мировые тренды высокого качества</h2>
+        <div class="about-block__text">Таким образом реализация намеченных плановых заданий играет важную роль в формировании новых предложений.</div>
+    </div>
+</div>
+<div class="categories-slider">
+    
+
+        <div class="categories-slider__title">Покупка по категориям</div>
+        <div class="categories-slider__line"></div>
+        <div class="categories-slider__carousel-block">
+
+        
+            <carousel class="categories-slider__carousel" [overflowCellsLimit]="'0'" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'400'">
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[0])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[0].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[0].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[0].nameofcategory}}</span></div>
+
+                </div>
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[1])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[1].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[1].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[1].nameofcategory}}</span></div>
+
+                </div>
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[2])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[2].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[2].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[2].nameofcategory}}</span></div>
+
+                </div>
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[3])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[3].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[3].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[3].nameofcategory}}</span></div>
+
+                </div>
+                <div class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[4])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[4].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[4].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[4].nameofcategory}}</span></div>
+
+                </div>
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[5])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[5].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[5].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[5].nameofcategory}}</span></div>
+
+                </div>
+                <div class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[6])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[6].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[6].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[6].nameofcategory}}</span></div>
+
+                </div>
+                <div  class="carousel-cell" >
+                    <a (click)="getCategory(slideCat[7])" routerLink="/catalog/all">
+                        <img style="object-fit: cover;" src="{{slideCat[7].image}}">
+                    </a>
+                    <div class="categories-slider__cell__text-block">{{slideCat[7].text}}<br><span class="categories-slider__cell__text-block_bold">{{slideCat[7].nameofcategory}}</span></div>
+
+                </div>
+                
+            </carousel>
+        </div>
+       
+
+</div>
+<div class="information">
+    <div class="container information__container">
+        <div class="information__title">Шоппинг в CATWALK</div>
+        <div class="information__line"></div>
+        <div class="information__grid">
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faRocket"></fa-icon></div>
+                <div class="information__grid_title">Быстрая доставка</div>
+                <div class="information__grid_text">Посылки доставляются курьером по указанному адресу на протяжении <b>трёх</b> дней с момента совершения online-заказа.</div>
+            </div>
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faHeadphonesAlt"></fa-icon></div>
+                <div class="information__grid_title">24/7 поддержка</div>
+                <div class="information__grid_text">Совершайте покупки в любое удобное для вас время. Заказы принимаются и обрабатываются автоматически</div>
+            </div>
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faUnlockAlt"></fa-icon></div>
+                <div class="information__grid_title">Защита данных покупателя</div>
+                <div class="information__grid_text">Безопасная платежная система оплаты. Все данные пользователей шифруются.</div>
+            </div>
+        </div>
+        <div class="information__grid">
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faArrowsAlt"></fa-icon></div>
+                <div class="information__grid_title">Доставка в любую точку Украины</div>
+                <div class="information__grid_text">Доставим Ваши покупки в любой населенный пункт </div>
+            </div>
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faGift"></fa-icon></div>
+                <div class="information__grid_title">Система скидок и бонусов</div>
+                <div class="information__grid_text">Постоянные акции на различные категории товаров и масштабные сезонные скидки. Подарки на покупки свыше 0000,00 грн.</div>
+            </div>
+            <div class="information__grid_col">
+                <div class="information__grid_icon"><fa-icon [icon]="faUndo"></fa-icon></div>
+                <div class="information__grid_title">14-дневный возврат</div>
+                <div class="information__grid_text">Вы можете вернуть товар в течении 14 дней и получить назад свои деньги.</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sales-block">
+    <div class="container">
+        <div class="sales-block__grid">
+            <div class="sales-block__grid__col">
+                <div class="sales-block__countdown">
+                    <div class="sales-block__countdown__title">До конца <b>акции</b> осталось</div>
+                    <div class="sales-block__countdown__line"></div>
+                    <div class="sales-block__countdown__time">
+                        <div class="sales-block__countdown__time_days">
+                            <lib-angular-countdown-dateTime [endDateBind]="discountover" [dayText]="'дней'" [hourText]="'часов'" [minutesText]="' минут'" [secondsText]="'  секунд'" ></lib-angular-countdown-dateTime>
+                        </div>
+                       
+                    </div>
+                    <div class="sales-block__countdown__buttons">
+                        <button class="sales-block__countdown__button"><a routerLink="/catalog/new">Купить</a></button>
+                        <button class="sales-block__countdown__button white-countdown"><a routerLink="/catalog/discount">Купить сейчас!</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="sales-block__grid__col ">
+                <carousel class="sales-block__countdoun" [cellsToShow]="'1'" [loop]="true" [width]="'100%'" [height]="'100%'" [overflowCellsLimit]="'0'">
+                    <div class="carousel-cell sales-block__price">
+                        <div class="sales-block__price__item"><span class="sales-block__price__item_old-price">{{discountslider[0].price}}.00</span><br>{{getDiscount(discountslider[0].price, .3)}}<span>.00 грн</span></div>
+                        <img class="sales-block__image" style="object-fit: cover;" src="{{discountslider[0].image}}" alt="photo">
+                    </div>
+                    <div  class="carousel-cell sales-block__price">
+                        <div class="sales-block__price__item"><span class="sales-block__price__item_old-price">{{discountslider[1].price}}.00</span><br>{{getDiscount(discountslider[1].price, .3)}}<span>.00 грн</span></div>
+                        <img class="sales-block__image" style="object-fit: cover;" src="{{discountslider[1].image}}" alt="photo">
+                    </div>
+                    <div  class="carousel-cell sales-block__price">
+                        <div class="sales-block__price__item"><span class="sales-block__price__item_old-price">{{discountslider[2].price}}.00</span><br>{{getDiscount(discountslider[2].price, .3)}}<span>.00 грн</span></div>
+                        <img class="sales-block__image" style="object-fit: cover;" src="{{discountslider[2].image}}" alt="photo">
+                    </div>
+                    <div  class="carousel-cell sales-block__price">
+                        <div class="sales-block__price__item"><span class="sales-block__price__item_old-price">{{discountslider[3].price}}.00</span><br>{{getDiscount(discountslider[3].price, .3)}}<span>.00 грн</span></div>
+                        <img class="sales-block__image" style="object-fit: cover;" src="{{discountslider[3].image}}" alt="photo">
+                    </div>
+                    <div  class="carousel-cell sales-block__price">
+                        <div class="sales-block__price__item"><span class="sales-block__price__item_old-price">{{discountslider[4].price}}.00</span><br>{{getDiscount(discountslider[4].price, .3)}}<span>.00 грн</span></div>
+                        <img class="sales-block__image" style="object-fit: cover;" src="{{discountslider[4].image}}" alt="photo">
+                    </div>
+                   
+                    
+                </carousel>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="blog">
+    <div class="blog__title">Блог</div>
+    <div class="blog__line"></div>
+    <carousel class="blog__carousel" [loop]="true" [cellsToShow]="'2'" [width]="'100%'" [height]="'300'" [overflowCellsLimit]="'0'">
+        <div class="carousel-cell">
+            <img  style="object-fit: cover; width: 40%;" src="{{blogs[0].image.thumb}}" alt="photo">
+            <div class="blog__description">
+                <div class="blog__description__date">{{blogs[0].date}}</div>
+                <div class="blog__description__title">{{blogs[0].name}}</div>
+                <div class="blog__description__text">{{blogs[0].text}}</div>
+                <div class="blog__description__buttons">
+                    <button class="sales-block__countdown__button"><a routerLink="/blog/{{blogs[0].id}}">Читать</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img style="object-fit: cover; width: 40%;" src="{{blogs[1].image.thumb}}" alt="photo">
+            <div class="blog__description">
+                <div class="blog__description__date">{{blogs[1].date}}</div>
+                <div class="blog__description__title">{{blogs[1].name}}</div>
+                <div class="blog__description__text">{{blogs[1].text}}</div>
+                <div class="blog__description__buttons">
+                    <button class="sales-block__countdown__button"><a routerLink="/blog/{{blogs[1].id}}">Читать</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img style="object-fit: cover; width: 40%;" src="{{blogs[2].image.thumb}}" alt="photo">
+            <div class="blog__description">
+                <div class="blog__description__date">{{blogs[2].date}}</div>
+                <div class="blog__description__title">{{blogs[2].name}}</div>
+                <div class="blog__description__text">{{blogs[2].text}}</div>
+                <div class="blog__description__buttons">
+                    <button class="sales-block__countdown__button"><a routerLink="/blog/{{blogs[1].id}}">Читать</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <img style="object-fit: cover; width: 40%;" src="{{blogs[3].image.thumb}}" alt="photo">
+            <div class="blog__description">
+                <div class="blog__description__date">{{blogs[3].date}}</div>
+                <div class="blog__description__title">{{blogs[3].name}}</div>
+                <div class="blog__description__text">{{blogs[3].text}}</div>
+                <div class="blog__description__buttons">
+                    <button class="sales-block__countdown__button"><a routerLink="/blog/{{blogs[1].id}}">Читать</a></button>
+                </div>
+            </div>
+        </div>
+
+    </carousel>
+
+</div>

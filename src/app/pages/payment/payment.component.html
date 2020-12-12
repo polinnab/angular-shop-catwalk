@@ -1,0 +1,31 @@
+<div class="container">
+    <!-- <div class="payment__title">Оплата картой</div> -->
+    <div class="payment__sum">Ваш заказ на сумму: <span class="payment__sum-number">{{sum}}</span>.00 грн</div>
+    <div class="payment__card-block">
+        <div class="payment__face-card">
+            <mat-form-field  class = "example-full-width payment__card-number"> 
+                        
+                <input autocomplete="off" matInput maxlength="16"  placeholder = "Номер карты"> 
+            </mat-form-field >
+            <div class="payment__card-date">
+                <mat-form-field  class = "example-full-width payment__card-mounce"> 
+                        
+                    <input autocomplete="off"  matInput maxlength="2" placeholder = "ММ"> 
+                </mat-form-field >
+                <mat-form-field  class = "example-full-width payment__card-year"> 
+                        
+                    <input autocomplete="off"  matInput maxlength="2" placeholder = "ГГ"> 
+                </mat-form-field >
+            </div>
+        </div>
+        <div class="payment__back-card">
+            <div class="payment__black-line"></div>
+            <mat-form-field  class = "example-full-width payment__card-code"> 
+                        
+                <input autocomplete="off"  matInput maxlength="3" placeholder = "Код"> 
+            </mat-form-field >
+            
+        </div>
+    </div>
+    <button mat-button (click)="openDialog()" class="payment__button">Оплатить</button>
+</div>

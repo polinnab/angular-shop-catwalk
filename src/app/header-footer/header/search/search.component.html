@@ -1,0 +1,19 @@
+<div class="search-box">
+  <label class="search">
+    <input #searchBox (input)="search(searchBox.value)" class="input" type="text" placeholder="поиск">
+    
+    <button class="search-button"><fa-icon class="icon" [icon]="faSearch"></fa-icon></button>
+  </label>
+  <ul class="search-result">
+      <li *ngFor="let good of goods$ | async" >
+        <a (click)="search(searchBox.value = '')" routerLink="/catalog/good/{{good.id}}">
+          {{good.name}}
+        </a>
+      </li>
+  </ul>
+</div>
+
+
+<!-- <input (keyup)="onKey($event)" class="input" type="text" placeholder="поиск"> -->
+
+<!-- <input #searchBox (input)="search(searchBox.value)" class="input" type="text" placeholder="поиск"> -->

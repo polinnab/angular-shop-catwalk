@@ -1,1 +1,272 @@
 /* You can add global styles to this file, and also import other style files */
+table, thead, tbody, tfoot, tr, th, td 
+  margin: 0
+  padding: 0
+  border: none
+  border-collapse: inherit
+  border-spacing: 0
+  border-color: inherit
+  vertical-align: inherit
+  font-weight: inherit
+  -webkit-border-horizontal-spacing: 0
+  -webkit-border-vertical-spacing: 0
+ 
+
+*, *:before, *:after, input, textarea, button, select 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+ 
+
+// input, option, textarea 
+//   border-radius: 0 !important
+//   box-shadow: none !important
+//   border: none !important
+    
+  font-size: inherit
+  font-family: inherit
+ 
+
+ul, ol 
+  list-style-type: none
+ 
+
+a, button, select 
+  text-decoration: none
+  cursor: pointer
+  border: none
+ 
+button:focus 
+  outline: none
+
+a 
+  color: inherit
+ 
+
+input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus 
+  outline: none
+ 
+
+html 
+  -webkit-text-size-adjust: 100%
+
+img 
+  pointer-events: none
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+*
+  font-family: 'Ubuntu', sans-serif
+
+@import './assets/sass/_fonts'
+
+.carousel-dots
+  margin-bottom: 20px
+
+.carousel-dots .carousel-dot
+  border: 2px solid #313538 !important
+
+.carousel-dots .carousel-dot-active
+  background-color: #313538 !important
+
+.carousel-cells 
+  width: 100% !important 
+
+.categories-slider__carousel .carousel-arrow-next
+  right: -50px !important
+.categories-slider__carousel .carousel-arrow-prev
+  left: -50px !important
+
+.goods-slider__carousel .carousel-arrow-next
+  right: -50px !important
+.goods-slider__carousel .carousel-arrow-prev
+  left: -50px !important
+
+.blog__carousel .carousel-arrow  
+  top: -30px !important
+  box-shadow: 0 0 0 #ffffff !important
+
+.carousel-cell:hover
+  cursor: pointer
+.sales-block__countdoun .carousel-cell:hover
+  cursor: grab
+
+
+.ngxImageZoomContainer 
+  width: 100% !important
+  height: 100% !important
+
+.ngxImageZoomThumbnail
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+// .blog__carousel .carousel-cell
+//   width: 25% !important
+.main-content__cards__card .container
+  border: 1px solid transparent
+.main-content__cards__card .container:hover
+  border: 1px solid silver
+
+.basket
+  &__username
+    & .mat-input-element
+      color:  #313538
+    & .mat-form-field-appearance-legacy .mat-form-field-wrapper
+      padding-bottom: 0px
+    & .mat-form-field-appearance-legacy .mat-form-field-underline
+      bottom: 0
+    & .mat-form-field-infix
+      width: 100%
+    & .mat-form-field.mat-focused .mat-form-field-label
+      color:  #414141
+    & .mat-form-field-appearance-legacy .mat-form-field-underline
+      background-color:  #eeeeee
+    & .mat-form-field.mat-focused .mat-form-field-ripple
+      background-color: #414141
+
+  &__region, &__post-office, &__email
+    & .mat-form-field.mat-focused .mat-form-field-ripple
+      background-color: #414141
+    & .mat-input-element
+      color:  #313538
+    & .mat-form-field-underline
+      bottom: 0
+    & .mat-form-field-wrapper
+      padding-bottom: 0
+    & .mat-form-field-appearance-fill .mat-form-field-flex
+      background-color: transparent
+    & .mat-form-field.mat-focused .mat-form-field-label
+      color:  #414141
+    & .mat-form-field-appearance-fill .mat-form-field-underline::before
+      background-color:  #eeeeee
+    & .mat-form-field-infix
+      border-top: 0
+
+.categories__content
+  & .mat-expansion-panel .ng-tns-c109-0
+    border-bottom: 1px solid #eeeeee
+  & .mat-expansion-panel .ng-tns-c109-3
+    border-bottom: 1px solid #eeeeee
+  // & .mat-expansion-panel .ng-tns-c109-15 .mat-expanded .mat-expansion-panel-spacing
+  //   border-bottom: 1px solid #eeeeee
+  & .mat-expansion-panel-header .mat-focus-indicator .ng-tns-c111-16 .ng-tns-c109-15 .mat-expansion-toggle-indicator-after .ng-star-inserted .mat-expanded
+    border-bottom: 1px solid #eeeeee
+  & .mat-expansion-panel-header .mat-focus-indicator .ng-tns-c111-1 .ng-tns-c109-0 .mat-expansion-toggle-indicator-after .ng-star-inserted .mat-expanded
+    background-color: #eeeeee
+  & .mat-expansion-panel:not([class*=mat-elevation-z])
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.0), 0px 2px 2px 0px rgba(0, 0, 0, 0.0), 0px 1px 5px 0px rgba(0, 0, 0, 0.0)
+
+.main-content__sorting
+  & .mat-form-field-wrapper
+    padding-bottom: 0
+  & .mat-form-field-underline
+    bottom: 0
+  & .mat-form-field-appearance-fill .mat-form-field-flex
+    background-color: #ffffff
+  & .mat-form-field-appearance-fill .mat-form-field-infix
+    padding: 0.25em 0 0.2em 0
+
+.main-content 
+  width: 100% !important
+
+.good__images_main-image 
+  & .ngxImageZoomThumbnail
+    max-height: 500px
+    object-fit: scale-down
+    
+.app-catalog 
+  display: block
+  width: 100%
+
+.good__images .carousel__cell
+  cursor: pointer 
+
+
+// Стили модальных окон
+.close-button, .button-to-basket
+  border-radius: 5px
+  background-color: #313538
+  color: #ffffff
+  padding: 10px
+  text-transform: uppercase
+  margin-bottom: 20px
+  &:hover
+      background-color: #969696
+.button-to-basket
+  margin-left: 20px
+
+// Стили отсчета до конца акции на главной странице
+.count-down-row
+  &:nth-child(1)
+    color: #313538
+    font-size: 25px
+    font-weight: bold
+    & div + div
+      margin-left: 15px
+  &:nth-child(2)
+    font-size: 15px
+    text-transform: uppercase
+    color: #8a8a8a
+    & div + div
+      margin-left: 15px
+// .categories-slider__carousel 
+//   & [_nghost-hhw-c11] .carousel-cells .carousel-cell
+//     width: 25% !important
+
+// стили на странице оплаты
+.payment__card-number
+  & .mat-form-field-infix
+    width: 290px
+  // & .mat-form-field-wrapper .ng-tns-c84-0
+  //   & div:first-child
+  //     background-color: #ffffff
+      
+  // & .mat-form-field-flex .ng-tns-c84-0
+  //   background-color: #ffffff
+    // border: 1px solid #838383
+
+  // & .mat-form-field-flex .ng-tns-c84-0
+  //   background-color: #ffffff
+  // & .mat-form-field-infix .ng-tns-c84-0
+  //   z-index: 10
+  & .ng-tns-c84-0 .ng-star-inserted
+    padding-left: 15px
+  & .mat-form-field-appearance-legacy .mat-form-field-infix
+    padding: 0.8em
+  // & .mat-form-field.mat-focused .mat-form-field-label
+  //   color:  #414141
+.payment__card-date
+  & .mat-form-field-infix
+    width: 50px
+  // & .mat-form-field-wrapper .ng-tns-c84-1
+  //   & div:first-child
+  //     background-color: #ffffff
+  // & .mat-form-field-wrapper .ng-tns-c84-2
+  //   & div:first-child
+  //     background-color: #ffffff
+  // & .mat-form-field-label-wrapper .ng-tns-c84-2
+  //   text-align: center
+  // & .mat-form-field-label-wrapper .ng-tns-c84-1
+  //   text-align: center
+.payment__card-code 
+  & .mat-form-field-infix
+    width: 60px
+  // & .mat-form-field-wrapper .ng-tns-c84-3
+  //   & div:first-child
+  //     background-color: #ffffff
+  // & .mat-form-field-label-wrapper .ng-tns-c84-3
+  //   text-align: center
+.main-content__sorting
+  & .mat-form-field.mat-focused .mat-form-field-label
+    color:  #414141
+  & .mat-form-field.mat-focused .mat-form-field-ripple
+    background-color: #414141
+
+.payment__face-card, .payment__back-card
+  & .mat-form-field.mat-focused .mat-form-field-label
+    color:  #414141
+  & .mat-form-field.mat-focused .mat-form-field-ripple
+    background-color: #414141

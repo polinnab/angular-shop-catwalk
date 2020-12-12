@@ -1,0 +1,43 @@
+.container
+    max-width: 1200px
+    width: 100%
+    margin: 0 auto
+    display: flex
+
+.main-content
+    width: 100%
+    margin-left: 40px
+    margin-bottom: 40px
+    &__sorting
+        width: 100%
+        padding: 10px 5px
+        display: flex
+        justify-content: space-between
+    &__cards
+        display: flex
+        flex-wrap: wrap
+
+        &__item
+            height: 440px
+            width: 25%
+            padding: 10px
+        &__card
+            width: 100%
+            transition: 0.2s
+            // &:hover
+            //     border: 1px solid silver
+.error
+    &__card
+        width: 50%
+    &-image
+        display: block
+        object-fit: cover
+        padding-top: 10px
+        width: 50%                
+    &-text 
+      padding-top: 20px
+      color: #545454  
+
+
+img 
+    pointer-events: none

@@ -1,0 +1,60 @@
+{
+    "go-to-category": [
+        {
+            "id": 1,
+            "nameofcategory": "Свитера и джемперы",
+            "text": "Утепляйся к осени",
+            "subCategory": "sweaters",
+            "image": "https://a.radikal.ru/a27/2011/5f/973554cf2b9e.jpg"
+        },
+        {
+            "id": 2,
+            "nameofcategory": "Кеды и кроссовки",
+            "text": "Куда бежать сегодня?",
+            "subCategory": "sneakers",
+            "image": "https://c.radikal.ru/c24/2011/90/1b69f47e9677.jpg"
+        },
+        {
+            "id": 3,
+            "nameofcategory": "Пальто и тренчи",
+            "text": "Лети, лети..",
+            "subCategory": "coats",
+            "image": "https://c.radikal.ru/c29/2011/ef/8a930f4ffafd.jpg"
+        },
+        {
+            "id": 4,
+            "nameofcategory": "Платья",
+            "text": "Платьев много не бывает!",
+            "subCategory": "dresses",
+            "image": "https://a.radikal.ru/a30/2011/0f/d2f9837c62ff.jpg"
+        },
+        {
+            "id": 5,
+            "nameofcategory": "Пиджаки",
+            "text": "Вещь вне сезона",
+            "subCategory": "blazers",
+            "image": "https://c.radikal.ru/c31/2011/83/77dc0161ff58.jpg"
+        },
+        {
+            "id": 6,
+            "nameofcategory": "Брюки и джинсы",
+            "text": "Ах, кюлоты...!",
+            "subCategory": "trousers",
+            "image": "https://a.radikal.ru/a18/2011/0f/eaae3217ff42.jpg"
+        },
+        {
+            "id": 7,
+            "nameofcategory": "Сапоги",
+            "text": "Черный - это классика",
+            "subCategory": "highboots",
+            "image": "https://a.radikal.ru/a14/2011/3c/ee6ca33e18de.jpg"
+        },
+        {
+            "id": 8,
+            "nameofcategory": "Куртки",
+            "text": "Зима не за горами",
+            "subCategory": "jackets",
+            "image": "https://a.radikal.ru/a02/2011/c3/8002e2dc1b56.jpg"
+        }
+    ]
+}

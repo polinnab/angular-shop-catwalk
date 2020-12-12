@@ -1,0 +1,1077 @@
+ {
+     "goods": [
+                {
+                    "id": "RP4R0003S",
+                    "name": "босоножки ANVIL",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d07/2010/01/a9abd5b77bdc.jpg", "https://c.radikal.ru/c30/2010/7b/cb73c3fcd912.jpg", "https://c.radikal.ru/c02/2010/9d/2e9565f4d085.jpg", "https://a.radikal.ru/a33/2010/08/cfe7b4286667.jpg", "https://c.radikal.ru/c15/2010/1c/370b4efa2dd5.jpg"],
+                        "origin": ["https://b.radikal.ru/b10/2011/4e/ce26dd8ac971.jpg", "https://d.radikal.ru/d06/2011/b9/4e757c6c87ac.jpg", "https://d.radikal.ru/d28/2011/92/d43261576602.jpg", "https://a.radikal.ru/a40/2011/90/5b3d1b02c364.jpg", "https://c.radikal.ru/c21/2011/b7/9fe608b36d97.jpg"]
+                    },
+                    "price": "1914",
+                    "description": "Застежка: резинка; декор: принт-лого, платформа в полоску; Высота платформы: 8 см; Цвет: красный, белый, золотистый, черный; состав: резина, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "37", "38", "40"],
+                    "color": ["multicolor", "red", "goldsilver"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "G2191LJ908",
+                    "name": "кожаные босоножки DANIELLA",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d12/2010/fe/e05c7309b20d.jpg", "https://d.radikal.ru/d00/2010/5e/797b620dd705.jpg", "https://d.radikal.ru/d41/2010/19/22427288fd14.jpg", "https://a.radikal.ru/a23/2010/3e/aa187ffbc099.jpg", "https://a.radikal.ru/a36/2010/7e/b849a76b1057.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/03/8bfc0a786fc9.jpg", "https://d.radikal.ru/d26/2011/71/486d5b8b2a03.jpg", "https://b.radikal.ru/b03/2011/f8/c02847c0a4b1.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg", "https://c.radikal.ru/c12/2011/91/db9dc2c77548.jpg"]
+                    },
+                    "price": "2793",
+                    "description": "Застежка: пряжка; фурнитура: золотистая; декор: золотистый логотип, анималистическое тиснение; высота каблука: 9 см; высота подошвы: 1 см; цвет: черный, коралловый, бежевый; состав: натуральная кожа, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "38"],
+                    "color": ["nude", "black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "SS2015S288",
+                    "name": "черные кожаные босоножки LA DIGUE",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d08/2010/bd/1c450df8c3c4.jpg", "https://b.radikal.ru/b02/2010/8b/baf3cc30d4d7.jpg", "https://a.radikal.ru/a28/2010/f5/041823f8543a.jpg", "https://a.radikal.ru/a06/2010/6a/31cfa605bc75.jpg", "https://a.radikal.ru/a12/2010/64/f52223e395cf.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/03/8bfc0a786fc9.jpg", "https://d.radikal.ru/d26/2011/71/486d5b8b2a03.jpg", "https://b.radikal.ru/b03/2011/f8/c02847c0a4b1.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg"]
+                    },
+                    "price": "2590",
+                    "description": "Застежка: пряжка; фурнитура: золотистая; декор: золотистая деталь; высота каблука: 9,5 см; высота подошвы: 1 см; цвет: черный; состав: натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false 
+                },
+                {
+                    "id": "PRFYAO1003",
+                    "name": "черные ботинки",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c10/2010/d7/315578132f8c.jpg", "https://c.radikal.ru/c05/2010/dc/773e94604add.jpg", "https://a.radikal.ru/a07/2010/73/0221796c70ed.jpg", "https://c.radikal.ru/c05/2010/f0/0af3c86435af.jpg", "https://a.radikal.ru/a21/2010/52/3665102f8948.jpg"],
+                        "origin": ["https://a.radikal.ru/a32/2011/86/7823c0fb04bd.jpg", "https://c.radikal.ru/c34/2011/1c/634ff5a6166e.jpg", "https://c.radikal.ru/c12/2011/b8/2a69cc19cdff.jpg", "https://c.radikal.ru/c23/2011/d8/28c3a8261821.jpg", "https://c.radikal.ru/c01/2011/77/2447a0599ec3.jpg"]
+                    },
+                    "price": "3490",
+                    "description": "Застежка: шнуровка; декор: комбинация материалов; высота подошвы: 4,5 см; цвет: черный; состав: натуральная кожа, полиуретан, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false 
+                },
+                {
+                    "id": "PRFYAO1002",
+                    "name": "черные кожаные ботинки Vetlanda",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a27/2010/c6/386449ec949a.jpg", "https://a.radikal.ru/a34/2010/d7/e396f4005afa.jpg", "https://d.radikal.ru/d13/2010/7e/7d9ba6f62aef.jpg", "https://d.radikal.ru/d00/2010/1a/115c97a04e45.jpg", "https://b.radikal.ru/b18/2010/ec/cca5f3f27ec8.jpg"],
+                        "origin": ["https://a.radikal.ru/a23/2011/c0/d55bd2dd7456.jpg", "https://b.radikal.ru/b26/2011/a7/381d55c88c1f.jpg", "https://a.radikal.ru/a38/2011/22/0220dc5940f6.jpg", "https://b.radikal.ru/b09/2011/7d/1e351ee273d3.jpg", "https://d.radikal.ru/d05/2011/19/2527163f8517.jpg"]
+                    },
+                    "price": "3790",
+                    "description": "Застежка: шнуровка, молния; фурнитура: пластиковая, металлическая; высота подошвы: 4,5 см; цвет: черный; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["36", "37", "40"],
+                    "color": ["black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "PRFYAO1000",
+                    "name": "черные кожаные челси",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b04/2010/8c/fb29de20ff42.jpg", "https://a.radikal.ru/a20/2010/a6/26c74384f988.jpg", "https://a.radikal.ru/a33/2010/26/b72f01395091.jpg", "https://a.radikal.ru/a39/2010/b3/c3b06e69d532.jpg", "https://a.radikal.ru/a22/2010/75/ec4e302fb8a7.jpg"],
+                        "origin": ["https://b.radikal.ru/b08/2011/fc/8a4f1d90520e.jpg", "https://c.radikal.ru/c35/2011/13/26d800fab47b.jpg", "https://b.radikal.ru/b23/2011/9a/4393597b216f.jpg", "https://c.radikal.ru/c06/2011/0d/53871f7be992.jpg", "https://b.radikal.ru/b03/2011/38/cc8ec5f6eb29.jpg"]
+                    },
+                    "price": "3490",
+                    "description": "Застежка: шнуровка, молния; фурнитура: пластиковая, металлическая; высота подошвы: 5 см; цвет: черный; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["37", "38", "39"],
+                    "color": ["black"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "PRFYAO1010",
+                    "name": "белые кожаные кроссовки",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d25/2010/15/99ecdfa25c46.jpg", "https://b.radikal.ru/b22/2010/87/6dcd8abb01c7.jpg", "https://d.radikal.ru/d29/2010/5e/3d66169182ff.jpg", "https://a.radikal.ru/a36/2010/b4/c37b1d10a868.jpg"],
+                        "origin": ["https://a.radikal.ru/a31/2011/47/5df42bb8f97e.jpg", "https://d.radikal.ru/d18/2011/5a/741dfc5ae696.jpg", "https://b.radikal.ru/b02/2011/12/7d9dc252bdfd.jpg", "https://a.radikal.ru/a08/2011/83/c8ac0da784ce.jpg"]
+                    },
+                    "price": "2990",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: белый; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["white", "multicolor"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "21ER3829",
+                    "name": "кроссовки BEVINDA",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a39/2010/66/a9ba7a6a917a.jpg", "https://b.radikal.ru/b17/2010/60/8dbeaf87328f.jpg", "https://b.radikal.ru/b34/2010/54/cb5fd2d015aa.jpg", "https://a.radikal.ru/a21/2010/1a/fd4faef5147e.jpg", "https://d.radikal.ru/d28/2010/d1/404d2a181aae.jpg"],
+                        "origin": ["https://d.radikal.ru/d01/2011/f1/5ee842221b1b.jpg", "https://b.radikal.ru/b07/2011/c0/a301918d10db.jpg", "https://a.radikal.ru/a00/2011/67/d51508932f82.jpg", "https://d.radikal.ru/d31/2011/91/d162e2e4869c.jpg", "https://a.radikal.ru/a43/2011/8e/ceb15ae1d775.jpg"]
+                    },
+                    "price": "3240",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: белый; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["37", "38", "39", "40"],
+                    "color": ["white", "nude", "grey"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "YT5318D9",
+                    "name": "темно-синие кожаные сникеры LAGALILLY",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a06/2010/76/9d2919157b7a.jpg", "https://a.radikal.ru/a04/2010/be/a9cd302daa29.jpg", "https://a.radikal.ru/a12/2010/54/fc765ee5fb6b.jpg", "https://d.radikal.ru/d23/2010/92/9c10338cb234.jpg", "https://b.radikal.ru/b24/2010/54/ed13256e5b5e.jpg"],
+                        "origin": ["https://d.radikal.ru/d02/2011/93/08701e6add46.jpg", "https://b.radikal.ru/b23/2011/f2/be6a43c97ba5.jpg", "https://a.radikal.ru/a16/2011/e0/8158c58f9270.jpg", "https://c.radikal.ru/c28/2011/a6/34c58f1ad36a.jpg", "https://c.radikal.ru/c14/2011/79/3107f2310202.jpg"]
+                    },
+                    "price": "1290",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: синий; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["blue"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "JA24032G1B",
+                    "name": "белые луноходы",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c37/2010/7e/9893b803e60b.jpg", "https://d.radikal.ru/d05/2010/b0/86be49cce14f.jpg", "https://b.radikal.ru/b37/2010/a4/7ebcd3a47421.jpg", "https://c.radikal.ru/c34/2010/86/e99e65a91d5d.jpg", "https://b.radikal.ru/b03/2010/70/754a01e2afc8.jpg"],
+                        "origin": ["https://a.radikal.ru/a18/2011/f5/1fd24ec481d8.jpg", "https://d.radikal.ru/d15/2011/02/c996146023fe.jpg", "https://c.radikal.ru/c32/2011/a3/c0724ac75382.jpg", "https://d.radikal.ru/d10/2011/9d/828d94d66eb6.jpg", "https://b.radikal.ru/b07/2011/2e/e2fb8dd861cd.jpg"]
+                    },
+                    "price": "4290",
+                    "description": "Застежка: завязки; высота подошвы: 2,5 см; цвет: белый; состав: резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["37", "39"],
+                    "color": ["white"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "PRFDS00023",
+                    "name": "черные кожаные сапоги Horna",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b35/2010/54/3d698c375b80.jpg", "https://d.radikal.ru/d42/2010/41/141c3836c7a7.jpg", "https://d.radikal.ru/d14/2010/9a/f13d9e130257.jpg", "https://c.radikal.ru/c02/2010/07/0ec5ae7135c9.jpg", "https://b.radikal.ru/b29/2010/64/024520965ae9.jpg"],
+                        "origin": ["https://d.radikal.ru/d23/2011/06/1036c3bdc66b.jpg", "https://d.radikal.ru/d01/2011/8c/441d756934f8.jpg", "https://b.radikal.ru/b33/2011/85/491c722137c5.jpg", "https://c.radikal.ru/c24/2011/4c/84cb6698bf0b.jpg", "https://b.radikal.ru/b22/2011/20/b8fa833fd0fd.jpg"]
+                    },
+                    "price": "5690",
+                    "description": "Застежка: молния, шнуровка, пряжка; фурнитура: пластиковая, металлическая; съемная монетница; высота подошвы: 3 см; цвет: черный; состав: резина, текстиль, натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "PRFAS0105W",
+                    "name": "черные кожаные угги",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a31/2010/9a/e2b40f45807f.jpg", "https://b.radikal.ru/b19/2010/e2/8094d8099672.jpg", "https://a.radikal.ru/a06/2010/c4/75524260b3de.jpg", "https://c.radikal.ru/c04/2010/99/ecc3b22fc6a3.jpg", "https://c.radikal.ru/c27/2010/a3/7072f8768309.jpg"],
+                        "origin": ["https://a.radikal.ru/a43/2011/3d/3e7e1875a0d0.jpg", "https://a.radikal.ru/a32/2011/5e/c19419e8a5e5.jpg", "https://c.radikal.ru/c00/2011/77/cb3a9f39bddb.jpg", "https://d.radikal.ru/d06/2011/f2/3fadba733096.jpg", "https://d.radikal.ru/d38/2011/74/4e95b6a41537.jpg"]
+                    },
+                    "price": "3990",
+                    "description": "Застежка: молния; фурнитура: пластиковая; утепление (мех); высота подошвы: 3 см; цвет: черный; состав: резина, натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "45FAT0105L",
+                    "name": "бежевые кожаные лоферы",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a24/2010/14/d6849066636e.jpg", "https://d.radikal.ru/d27/2010/a1/c6f36f846696.jpg", "https://c.radikal.ru/c24/2010/d3/9f7fe905dbba.jpg", "https://d.radikal.ru/d31/2010/2b/2498e1fba0c6.jpg", "https://a.radikal.ru/a38/2010/74/93e561d72665.jpg"],
+                        "origin": ["https://d.radikal.ru/d16/2011/38/01d1f37ff4a9.jpg", "https://b.radikal.ru/b18/2011/06/77ee7361315d.jpg", "https://d.radikal.ru/d02/2011/58/3b1c219f5705.jpg", "https://c.radikal.ru/c33/2011/6e/53f9e0b8a09d.jpg", "https://c.radikal.ru/c11/2011/32/17c1f7603dc9.jpg"]
+                    },
+                    "price": "3450",
+                    "description": "Высота подошвы: 2,5 см; цвет: бежевый; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["37", "38", "39", "40"],
+                    "color": ["nude"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "S020910001",
+                    "name": "бордовые замшевые лодочки",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b23/2010/ff/1fa5483d85f5.jpg", "https://d.radikal.ru/d14/2010/29/481fbbef7c21.jpg", "https://d.radikal.ru/d36/2010/c8/c93d7c242dde.jpg", "https://a.radikal.ru/a33/2010/2b/c3d2fa272db7.jpg", "https://a.radikal.ru/a05/2010/0a/cdfe70020f23.jpg"],
+                        "origin": ["https://b.radikal.ru/b04/2011/c9/c949ce0e0ae6.jpg", "https://a.radikal.ru/a07/2011/40/c406fb23dbea.jpg", "https://d.radikal.ru/d10/2011/74/b4896babc660.jpg", "https://a.radikal.ru/a22/2011/ea/11d720d52f4a.jpg", "https://a.radikal.ru/a06/2011/0a/21646dd65c92.jpg"]
+                    },
+                    "price": "3790",
+                    "description": "Высота каблука: 11 см, высота подошвы: 0,5 см; цвет: красный; состав: натуральная замша, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "37", "38", "39"],
+                    "color": ["red"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "V256З286P1",
+                    "name": "оранжевые кожаные слингбэки",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c03/2010/bc/26655955aa0a.jpg", "https://c.radikal.ru/c25/2010/16/57a81ff52bcd.jpg", "https://d.radikal.ru/d03/2010/57/f14982a831d8.jpg", "https://c.radikal.ru/c04/2010/56/0a181adfeb2b.jpg", "https://c.radikal.ru/c08/2010/6b/0dcc2aec63ed.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/46/56c8a9373e64.jpg", "https://a.radikal.ru/a36/2011/a3/367ca71d0b7b.jpg", "https://d.radikal.ru/d24/2011/ce/deba94ea1ca9.jpg", "https://b.radikal.ru/b32/2011/cf/5a861b73ec0d.jpg", "https://d.radikal.ru/d01/2011/b4/803b5d4c693d.jpg"]
+                    },
+                    "price": "1914",
+                    "description": "Застежка: резинка, липучка; фурнитура: пластиковая; декор: узор-лого на резинке, патч-лого, фигурный каблук; высота каблука: 9,5 см; высота подошвы: 0,5 см; цвет: красный, черный; состав: натуральная кожа, полиуретан, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "39", "40"],
+                    "color": ["red", "black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "PRFDS0003",
+                    "name": "черные кожаные лоферы",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a29/2010/25/66d4e6b0335a.jpg", "https://c.radikal.ru/c42/2010/61/71b91836bd93.jpg", "https://d.radikal.ru/d05/2010/43/37f4904be730.jpg", "https://b.radikal.ru/b22/2010/00/bc33919bedf0.jpg", "https://a.radikal.ru/a43/2010/7e/7781ffd7b377.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "2490",
+                    "description": "Высота каблука: 4 см; высота подошвы: 2 см; цвет: черный; состав: натуральная кожа, резина, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "A00050GAXA",
+                    "name": "бежевые кюлоты P-ACAY-DT",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c28/2011/24/2e7817c49188.jpg", "https://d.radikal.ru/d36/2011/79/825e314c944f.jpg", "https://c.radikal.ru/c29/2011/95/e8c82c46673c.jpg", "https://d.radikal.ru/d42/2011/35/10f910973e82.jpg", "https://b.radikal.ru/b37/2011/57/7f8eb3e269cc.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "1790",
+                    "description": "Карманы: четыре кармана; декор: комбинация материалов, потертости, необработанный низ, патч-лог; застежка: пуговица, молния; длина штанины: 87 см; обхват пояса: 72 см; цвет: бежевый; состав: 100% хлопок",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["S", "M", "XL"],
+                    "color": ["nude"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "00S6G009GZ",
+                    "name": "голубые джинсы D-REGGY",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d13/2011/44/0cea127c53e5.jpg", "https://c.radikal.ru/c42/2011/06/6ad0f212205e.jpg", "https://c.radikal.ru/c15/2011/88/5d2c097561e2.jpg", "https://c.radikal.ru/c13/2011/3a/d978e2c7bb74.jpg", "https://d.radikal.ru/d17/2011/22/b34b56555215.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "2150",
+                    "description": "Карманы: пять карманов; декор: патч-лого, потертости, вышитый логотип; застежка: пуговица, молния; длина штанины: 104 см; обхват пояса: 74 см; цвет: голубой; состав: 55% хлопок, 45% лиоцелл",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["blue"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "WW0WW28493",
+                    "name": "красные брюки ICON BISTRETCH WOOL",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d20/2011/5b/299ee7e33c4f.jpg", "https://c.radikal.ru/c39/2011/27/8360fc230c6e.jpg", "https://d.radikal.ru/d26/2011/f7/a2c334b30f39.jpg", "https://c.radikal.ru/c19/2011/11/9124752acf17.jpg", "https://b.radikal.ru/b41/2011/07/c8cbd2e9ac3f.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "1990",
+                    "description": "Карманы: три кармана; декор: контрастные лампасы с золотистой отделкой швов, стрелки, вышитый логотип; застежка: эластичный пояс, завязки; длина штанины: 105 см; обхват пояса: 70 см; цвет: красный; состав: 53% полиэстер, 43% шерсть, 4% эластан",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["XS", "S", "M"],
+                    "color": ["red"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "W112070108",
+                    "name": "зеленый жакет",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a34/2011/e7/e14029c765a3.jpg", "https://d.radikal.ru/d36/2011/1c/825ddf1d13e8.jpg", "https://a.radikal.ru/a05/2011/e6/a01c1128cd07.jpg", "https://d.radikal.ru/d27/2011/9c/9213dbe5c88b.jpg", "https://a.radikal.ru/a29/2011/a3/a648508164fe.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "990",
+                    "description": "Длина изделия: удлиненная; длина рукава: три четверти; воротник: отложной; цвет: зеленый; состав: 55% лен, 45% вискоза",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["XS", "M", "XL"],
+                    "color": ["green"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1B14JZ8041",
+                    "name": "серый жакет",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a07/2011/90/af152ce6b585.jpg", "https://d.radikal.ru/d10/2011/8a/cb5457f8d4e1.jpg", "https://c.radikal.ru/c28/2011/ab/8f2fd1ec78ee.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "2400",
+                    "description": "Застежка: пуговицы; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: отложной; карманы: два кармана; цвет: серый; состав: 48% хлопок, 30% вискоза, 22% шерсть",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["M", "XL"],
+                    "color": ["grey"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1B4770088",
+                    "name": "шерстяной блейзер в клетку LONGLINE CHECKED",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d06/2011/1a/db1c7222ab99.jpg", "https://d.radikal.ru/d08/2011/30/96b6efe26899.jpg", "https://d.radikal.ru/d02/2011/30/5e0393c2752c.jpg", "https://c.radikal.ru/c39/2011/c4/451b5b58add1.jpg", "https://b.radikal.ru/b08/2011/f2/99d780704896.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "3640",
+                    "description": "Застежка: пуговицы; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: отложной; карманы: два внешних, один внутренний; цвет: бежевый, разноцветный, красный; состав: 51% шерсть, 49% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["XS", "S", "M"],
+                    "color": ["nude", "multicolor", "red"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "23668P0001",
+                    "name": "бежевый пуховик",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d10/2011/82/792c10df75d4.jpg", "https://d.radikal.ru/d04/2011/8c/7fcf5f4601f3.jpg", "https://a.radikal.ru/a31/2011/4b/01ac0d4d574d.jpg", "https://b.radikal.ru/b25/2011/e3/11740cc5a524.jpg", "https://c.radikal.ru/c03/2011/d0/ef31aed9ea4e.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "5990",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: бежевый; состав: 100% полиэстер, 80% утиный пух, 20% утиное перо",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "S", "M", "L"],
+                    "color": ["nude"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "JD688P000U",
+                    "name": "желтый пуховик",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b40/2011/bc/69359d3b12c4.jpg", "https://b.radikal.ru/b34/2011/f0/3a569f095546.jpg", "https://d.radikal.ru/d36/2011/29/9d378798d0b0.jpg", "https://d.radikal.ru/d11/2011/eb/0d59ab9198f7.jpg", "https://b.radikal.ru/b23/2011/6a/641e4c9a8101.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "4990",
+                    "description": "вшитый капюшон; Застежка: молния; длина изделия: средняя длинна; фурнитура: металлическая; декор: принт, брендированный пуллер; воротник: стойка; карманы: два кармана; цвет: желтый; состав: 100% нейлон; 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "S", "M", "L"],
+                    "color": ["multicolor"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "A00540WAZL",
+                    "name": "куртка W-EMMICK",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"],
+                        "origin": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"]
+                    },
+                    "price": "3450",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: мультиколор; состав: 100% полиэстер, 80% утиный пух, 20% утиное перо",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "L"],
+                    "color": ["multicolor"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "00SK11BGQCU",
+                    "name": "бежевый тренч G-BERYL",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a12/2011/6e/1cc988298a79.jpg", "https://b.radikal.ru/b43/2011/7e/e26b479fb51f.jpg", "https://b.radikal.ru/b36/2011/19/d17de218d069.jpg", "https://a.radikal.ru/a10/2011/47/422efac4e3ce.jpg", "https://c.radikal.ru/c08/2011/92/14812da1cfb0.jpg"],
+                        "origin": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"]
+                    },
+                    "price": "4450",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: желтый; состав: 100% полиэстер, 80% утиный пух, 20% утиное перо",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "coats", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["nude", "yellow"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "4876TR29120",
+                    "name": "шерстяное пальто в клетку CHECKED WOOL BLEND",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a25/2011/88/8ed7b16e85ce.jpg", "https://b.radikal.ru/b03/2011/99/ec81e9216394.jpg", "https://c.radikal.ru/c30/2011/f5/6486275abb2b.jpg", "https://b.radikal.ru/b33/2011/69/be3d0d0bce0c.jpg", "https://d.radikal.ru/d17/2011/8f/17aecdd49166.jpg"],
+                        "origin": ["https://a.radikal.ru/a25/2011/88/8ed7b16e85ce.jpg", "https://b.radikal.ru/b03/2011/99/ec81e9216394.jpg", "https://c.radikal.ru/c30/2011/f5/6486275abb2b.jpg", "https://b.radikal.ru/b33/2011/69/be3d0d0bce0c.jpg", "https://d.radikal.ru/d17/2011/8f/17aecdd49166.jpg"]
+                    },
+                    "price": "8400",
+                    "description": "Застежка: пуговицы; длина изделия: удлененная; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: серый; состав: 60% полиэстер, 40% шерсть",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "coats", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["grey", "multicolor", "nude"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "K20K202435",
+                    "name": "платье c узором LS BUTTON UP",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a01/2011/4e/abdb5a00eeb1.jpg", "https://b.radikal.ru/b42/2011/26/d8428ebf2d8f.jpg", "https://d.radikal.ru/d26/2011/7d/03bbcd0be1d0.jpg", "https://a.radikal.ru/a19/2011/03/db3f09e82575.jpg", "https://b.radikal.ru/b37/2011/c3/246aed6786e7.jpg"],
+                        "origin": ["https://a.radikal.ru/a01/2011/4e/abdb5a00eeb1.jpg", "https://b.radikal.ru/b42/2011/26/d8428ebf2d8f.jpg", "https://d.radikal.ru/d26/2011/7d/03bbcd0be1d0.jpg", "https://a.radikal.ru/a19/2011/03/db3f09e82575.jpg", "https://b.radikal.ru/b37/2011/c3/246aed6786e7.jpg"]
+                    },
+                    "price": "2300",
+                    "description": "Застежка: пуговицы, молния; длина изделия: 124 см; фурнитура: пластиковая, металлическая; воротник: стойка; карманы: два кармана; цвет: коричневый; состав: 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "dresses", 
+                    "size": ["XS", "S", "L", "XL"],
+                    "color": ["nude", "black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "777K202435",
+                    "name": "платье с узором KELLY",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a40/2011/28/98c31d52201f.jpg", "https://c.radikal.ru/c28/2011/a0/d0f9b39ecacc.jpg", "https://b.radikal.ru/b02/2011/1d/154edf3d2896.jpg", "https://b.radikal.ru/b24/2011/f0/dcaed309b7ab.jpg", "https://a.radikal.ru/a17/2011/7b/a0393303c9cb.jpg"],
+                        "origin": ["https://a.radikal.ru/a40/2011/28/98c31d52201f.jpg", "https://c.radikal.ru/c28/2011/a0/d0f9b39ecacc.jpg", "https://b.radikal.ru/b02/2011/1d/154edf3d2896.jpg", "https://b.radikal.ru/b24/2011/f0/dcaed309b7ab.jpg", "https://a.radikal.ru/a17/2011/7b/a0393303c9cb.jpg"]
+                    },
+                    "price": "1690",
+                    "description": "Застежка: пуговицы, молния; длина изделия: 104 см; фурнитура: пластиковая, металлическая; воротник: стойка; цвет: черный; состав: 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "dresses", 
+                    "size": ["XS", "M", "L", "XL"],
+                    "color": ["multicolor", "black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "504373UU538",
+                    "name": "голубой свитер",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a26/2011/c2/2b94817789ba.jpg", "https://d.radikal.ru/d03/2011/f3/6c876fe203d0.jpg", "https://c.radikal.ru/c15/2011/5e/dd0b2defed3d.jpg", "https://c.radikal.ru/c12/2011/b0/dbbf9b4e5afe.jpg", "https://d.radikal.ru/d30/2011/27/e6beb2e143fd.jpg"],
+                        "origin": ["https://a.radikal.ru/a26/2011/c2/2b94817789ba.jpg", "https://d.radikal.ru/d03/2011/f3/6c876fe203d0.jpg", "https://c.radikal.ru/c15/2011/5e/dd0b2defed3d.jpg", "https://c.radikal.ru/c12/2011/b0/dbbf9b4e5afe.jpg", "https://d.radikal.ru/d30/2011/27/e6beb2e143fd.jpg"]
+                    },
+                    "price": "1200",
+                    "description": "Застежка: нет; длина изделия: средняя длина; фурнитура: пластиковая, металлическая; воротник: стойка; цвет: голубой; состав: 50% полиэстер, 50% шерсть альпаки",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "sweaters", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["blue"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1GF71Y0002",
+                    "name": "бежевый свитер Made&Crafted",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b40/2011/95/b8f1950884b8.jpg", "https://b.radikal.ru/b33/2011/68/8500421ae0d4.jpg", "https://a.radikal.ru/a02/2011/52/74a7da00f8a2.jpg", "https://a.radikal.ru/a24/2011/eb/544f9d47eedf.jpg", "https://b.radikal.ru/b23/2011/54/c24d1dbf5191.jpg"],
+                        "origin": ["https://b.radikal.ru/b40/2011/95/b8f1950884b8.jpg", "https://b.radikal.ru/b33/2011/68/8500421ae0d4.jpg", "https://a.radikal.ru/a02/2011/52/74a7da00f8a2.jpg", "https://a.radikal.ru/a24/2011/eb/544f9d47eedf.jpg", "https://b.radikal.ru/b23/2011/54/c24d1dbf5191.jpg"]
+                    },
+                    "price": "2400",
+                    "description": "Застежка: молния; длина изделия: средняя длина; фурнитура: пластиковая; воротник: стойка; цвет: бежевый; состав: 50% полиэстер, 50% шерсть альпаки",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "sweaters", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["nude"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "RP4R0003S",
+                    "name": "босоножки ANVIL",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d07/2010/01/a9abd5b77bdc.jpg", "https://c.radikal.ru/c30/2010/7b/cb73c3fcd912.jpg", "https://c.radikal.ru/c02/2010/9d/2e9565f4d085.jpg", "https://a.radikal.ru/a33/2010/08/cfe7b4286667.jpg", "https://c.radikal.ru/c15/2010/1c/370b4efa2dd5.jpg"],
+                        "origin": ["https://b.radikal.ru/b10/2011/4e/ce26dd8ac971.jpg", "https://d.radikal.ru/d06/2011/b9/4e757c6c87ac.jpg", "https://d.radikal.ru/d28/2011/92/d43261576602.jpg", "https://a.radikal.ru/a40/2011/90/5b3d1b02c364.jpg", "https://c.radikal.ru/c21/2011/b7/9fe608b36d97.jpg"]
+                    },
+                    "price": "1914",
+                    "description": "Застежка: резинка; декор: принт-лого, платформа в полоску; Высота платформы: 8 см; Цвет: красный, белый, золотистый, черный; состав: резина, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "37", "38", "40"],
+                    "color": ["multicolor", "red", "goldsilver"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "G2191LJ908",
+                    "name": "кожаные босоножки DANIELLA",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d12/2010/fe/e05c7309b20d.jpg", "https://d.radikal.ru/d00/2010/5e/797b620dd705.jpg", "https://d.radikal.ru/d41/2010/19/22427288fd14.jpg", "https://a.radikal.ru/a23/2010/3e/aa187ffbc099.jpg", "https://a.radikal.ru/a36/2010/7e/b849a76b1057.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/03/8bfc0a786fc9.jpg", "https://d.radikal.ru/d26/2011/71/486d5b8b2a03.jpg", "https://b.radikal.ru/b03/2011/f8/c02847c0a4b1.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg", "https://c.radikal.ru/c12/2011/91/db9dc2c77548.jpg"]
+                    },
+                    "price": "2793",
+                    "description": "Застежка: пряжка; фурнитура: золотистая; декор: золотистый логотип, анималистическое тиснение; высота каблука: 9 см; высота подошвы: 1 см; цвет: черный, коралловый, бежевый; состав: натуральная кожа, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "38"],
+                    "color": ["nude", "black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "SS2015S288",
+                    "name": "черные кожаные босоножки LA DIGUE",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d08/2010/bd/1c450df8c3c4.jpg", "https://b.radikal.ru/b02/2010/8b/baf3cc30d4d7.jpg", "https://a.radikal.ru/a28/2010/f5/041823f8543a.jpg", "https://a.radikal.ru/a06/2010/6a/31cfa605bc75.jpg", "https://a.radikal.ru/a12/2010/64/f52223e395cf.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/03/8bfc0a786fc9.jpg", "https://d.radikal.ru/d26/2011/71/486d5b8b2a03.jpg", "https://b.radikal.ru/b03/2011/f8/c02847c0a4b1.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg", "https://c.radikal.ru/c00/2011/6e/080d35dd0ec0.jpg"]
+                    },
+                    "price": "2590",
+                    "description": "Застежка: пряжка; фурнитура: золотистая; декор: золотистая деталь; высота каблука: 9,5 см; высота подошвы: 1 см; цвет: черный; состав: натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sandals", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false 
+                },
+                {
+                    "id": "PRFYAO1003",
+                    "name": "черные ботинки",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c10/2010/d7/315578132f8c.jpg", "https://c.radikal.ru/c05/2010/dc/773e94604add.jpg", "https://a.radikal.ru/a07/2010/73/0221796c70ed.jpg", "https://c.radikal.ru/c05/2010/f0/0af3c86435af.jpg", "https://a.radikal.ru/a21/2010/52/3665102f8948.jpg"],
+                        "origin": ["https://a.radikal.ru/a32/2011/86/7823c0fb04bd.jpg", "https://c.radikal.ru/c34/2011/1c/634ff5a6166e.jpg", "https://c.radikal.ru/c12/2011/b8/2a69cc19cdff.jpg", "https://c.radikal.ru/c23/2011/d8/28c3a8261821.jpg", "https://c.radikal.ru/c01/2011/77/2447a0599ec3.jpg"]
+                    },
+                    "price": "3490",
+                    "description": "Застежка: шнуровка; декор: комбинация материалов; высота подошвы: 4,5 см; цвет: черный; состав: натуральная кожа, полиуретан, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false 
+                },
+                {
+                    "id": "PRFYAO1002",
+                    "name": "черные кожаные ботинки Vetlanda",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a27/2010/c6/386449ec949a.jpg", "https://a.radikal.ru/a34/2010/d7/e396f4005afa.jpg", "https://d.radikal.ru/d13/2010/7e/7d9ba6f62aef.jpg", "https://d.radikal.ru/d00/2010/1a/115c97a04e45.jpg", "https://b.radikal.ru/b18/2010/ec/cca5f3f27ec8.jpg"],
+                        "origin": ["https://a.radikal.ru/a23/2011/c0/d55bd2dd7456.jpg", "https://b.radikal.ru/b26/2011/a7/381d55c88c1f.jpg", "https://a.radikal.ru/a38/2011/22/0220dc5940f6.jpg", "https://b.radikal.ru/b09/2011/7d/1e351ee273d3.jpg", "https://d.radikal.ru/d05/2011/19/2527163f8517.jpg"]
+                    },
+                    "price": "3790",
+                    "description": "Застежка: шнуровка, молния; фурнитура: пластиковая, металлическая; высота подошвы: 4,5 см; цвет: черный; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["36", "37", "40"],
+                    "color": ["black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true 
+                },
+                {
+                    "id": "PRFYAO1000",
+                    "name": "черные кожаные челси",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b04/2010/8c/fb29de20ff42.jpg", "https://a.radikal.ru/a20/2010/a6/26c74384f988.jpg", "https://a.radikal.ru/a33/2010/26/b72f01395091.jpg", "https://a.radikal.ru/a39/2010/b3/c3b06e69d532.jpg", "https://a.radikal.ru/a22/2010/75/ec4e302fb8a7.jpg"],
+                        "origin": ["https://b.radikal.ru/b08/2011/fc/8a4f1d90520e.jpg", "https://c.radikal.ru/c35/2011/13/26d800fab47b.jpg", "https://b.radikal.ru/b23/2011/9a/4393597b216f.jpg", "https://c.radikal.ru/c06/2011/0d/53871f7be992.jpg", "https://b.radikal.ru/b03/2011/38/cc8ec5f6eb29.jpg"]
+                    },
+                    "price": "3490",
+                    "description": "Застежка: шнуровка, молния; фурнитура: пластиковая, металлическая; высота подошвы: 5 см; цвет: черный; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "boots", 
+                    "size": ["37", "38", "39"],
+                    "color": ["black"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "PRFYAO1010",
+                    "name": "белые кожаные кроссовки",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d25/2010/15/99ecdfa25c46.jpg", "https://b.radikal.ru/b22/2010/87/6dcd8abb01c7.jpg", "https://d.radikal.ru/d29/2010/5e/3d66169182ff.jpg", "https://a.radikal.ru/a36/2010/b4/c37b1d10a868.jpg"],
+                        "origin": ["https://a.radikal.ru/a31/2011/47/5df42bb8f97e.jpg", "https://d.radikal.ru/d18/2011/5a/741dfc5ae696.jpg", "https://b.radikal.ru/b02/2011/12/7d9dc252bdfd.jpg", "https://a.radikal.ru/a08/2011/83/c8ac0da784ce.jpg"]
+                    },
+                    "price": "2990",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: белый; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["white", "multicolor"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "21ER3829",
+                    "name": "кроссовки BEVINDA",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a39/2010/66/a9ba7a6a917a.jpg", "https://b.radikal.ru/b17/2010/60/8dbeaf87328f.jpg", "https://b.radikal.ru/b34/2010/54/cb5fd2d015aa.jpg", "https://a.radikal.ru/a21/2010/1a/fd4faef5147e.jpg", "https://d.radikal.ru/d28/2010/d1/404d2a181aae.jpg"],
+                        "origin": ["https://d.radikal.ru/d01/2011/f1/5ee842221b1b.jpg", "https://b.radikal.ru/b07/2011/c0/a301918d10db.jpg", "https://a.radikal.ru/a00/2011/67/d51508932f82.jpg", "https://d.radikal.ru/d31/2011/91/d162e2e4869c.jpg", "https://a.radikal.ru/a43/2011/8e/ceb15ae1d775.jpg"]
+                    },
+                    "price": "3240",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: белый; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["37", "38", "39", "40"],
+                    "color": ["white", "nude", "grey"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "YT5318D9",
+                    "name": "темно-синие кожаные сникеры LAGALILLY",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a06/2010/76/9d2919157b7a.jpg", "https://a.radikal.ru/a04/2010/be/a9cd302daa29.jpg", "https://a.radikal.ru/a12/2010/54/fc765ee5fb6b.jpg", "https://d.radikal.ru/d23/2010/92/9c10338cb234.jpg", "https://b.radikal.ru/b24/2010/54/ed13256e5b5e.jpg"],
+                        "origin": ["https://d.radikal.ru/d02/2011/93/08701e6add46.jpg", "https://b.radikal.ru/b23/2011/f2/be6a43c97ba5.jpg", "https://a.radikal.ru/a16/2011/e0/8158c58f9270.jpg", "https://c.radikal.ru/c28/2011/a6/34c58f1ad36a.jpg", "https://c.radikal.ru/c14/2011/79/3107f2310202.jpg"]
+                    },
+                    "price": "1290",
+                    "description": "Застежка: шнуровка; декор: светоотражающие вставки; высота подошвы: 5,5 см; цвет: синий; состав: натуральная кожа, резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "sneakers", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["blue"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "JA24032G1B",
+                    "name": "белые луноходы",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c37/2010/7e/9893b803e60b.jpg", "https://d.radikal.ru/d05/2010/b0/86be49cce14f.jpg", "https://b.radikal.ru/b37/2010/a4/7ebcd3a47421.jpg", "https://c.radikal.ru/c34/2010/86/e99e65a91d5d.jpg", "https://b.radikal.ru/b03/2010/70/754a01e2afc8.jpg"],
+                        "origin": ["https://a.radikal.ru/a18/2011/f5/1fd24ec481d8.jpg", "https://d.radikal.ru/d15/2011/02/c996146023fe.jpg", "https://c.radikal.ru/c32/2011/a3/c0724ac75382.jpg", "https://d.radikal.ru/d10/2011/9d/828d94d66eb6.jpg", "https://b.radikal.ru/b07/2011/2e/e2fb8dd861cd.jpg"]
+                    },
+                    "price": "4290",
+                    "description": "Застежка: завязки; высота подошвы: 2,5 см; цвет: белый; состав: резина, текстиль, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["37", "39"],
+                    "color": ["white"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "PRFDS00023",
+                    "name": "черные кожаные сапоги Horna",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b35/2010/54/3d698c375b80.jpg", "https://d.radikal.ru/d42/2010/41/141c3836c7a7.jpg", "https://d.radikal.ru/d14/2010/9a/f13d9e130257.jpg", "https://c.radikal.ru/c02/2010/07/0ec5ae7135c9.jpg", "https://b.radikal.ru/b29/2010/64/024520965ae9.jpg"],
+                        "origin": ["https://d.radikal.ru/d23/2011/06/1036c3bdc66b.jpg", "https://d.radikal.ru/d01/2011/8c/441d756934f8.jpg", "https://b.radikal.ru/b33/2011/85/491c722137c5.jpg", "https://c.radikal.ru/c24/2011/4c/84cb6698bf0b.jpg", "https://b.radikal.ru/b22/2011/20/b8fa833fd0fd.jpg"]
+                    },
+                    "price": "5690",
+                    "description": "Застежка: молния, шнуровка, пряжка; фурнитура: пластиковая, металлическая; съемная монетница; высота подошвы: 3 см; цвет: черный; состав: резина, текстиль, натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "PRFAS0105W",
+                    "name": "черные кожаные угги",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a31/2010/9a/e2b40f45807f.jpg", "https://b.radikal.ru/b19/2010/e2/8094d8099672.jpg", "https://a.radikal.ru/a06/2010/c4/75524260b3de.jpg", "https://c.radikal.ru/c04/2010/99/ecc3b22fc6a3.jpg", "https://c.radikal.ru/c27/2010/a3/7072f8768309.jpg"],
+                        "origin": ["https://a.radikal.ru/a43/2011/3d/3e7e1875a0d0.jpg", "https://a.radikal.ru/a32/2011/5e/c19419e8a5e5.jpg", "https://c.radikal.ru/c00/2011/77/cb3a9f39bddb.jpg", "https://d.radikal.ru/d06/2011/f2/3fadba733096.jpg", "https://d.radikal.ru/d38/2011/74/4e95b6a41537.jpg"]
+                    },
+                    "price": "3990",
+                    "description": "Застежка: молния; фурнитура: пластиковая; утепление (мех); высота подошвы: 3 см; цвет: черный; состав: резина, натуральная кожа",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "highboots", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "45FAT0105L",
+                    "name": "бежевые кожаные лоферы",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a24/2010/14/d6849066636e.jpg", "https://d.radikal.ru/d27/2010/a1/c6f36f846696.jpg", "https://c.radikal.ru/c24/2010/d3/9f7fe905dbba.jpg", "https://d.radikal.ru/d31/2010/2b/2498e1fba0c6.jpg", "https://a.radikal.ru/a38/2010/74/93e561d72665.jpg"],
+                        "origin": ["https://d.radikal.ru/d16/2011/38/01d1f37ff4a9.jpg", "https://b.radikal.ru/b18/2011/06/77ee7361315d.jpg", "https://d.radikal.ru/d02/2011/58/3b1c219f5705.jpg", "https://c.radikal.ru/c33/2011/6e/53f9e0b8a09d.jpg", "https://c.radikal.ru/c11/2011/32/17c1f7603dc9.jpg"]
+                    },
+                    "price": "3450",
+                    "description": "Высота подошвы: 2,5 см; цвет: бежевый; состав: натуральная кожа, резина",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["37", "38", "39", "40"],
+                    "color": ["nude"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "S020910001",
+                    "name": "бордовые замшевые лодочки",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b23/2010/ff/1fa5483d85f5.jpg", "https://d.radikal.ru/d14/2010/29/481fbbef7c21.jpg", "https://d.radikal.ru/d36/2010/c8/c93d7c242dde.jpg", "https://a.radikal.ru/a33/2010/2b/c3d2fa272db7.jpg", "https://a.radikal.ru/a05/2010/0a/cdfe70020f23.jpg"],
+                        "origin": ["https://b.radikal.ru/b04/2011/c9/c949ce0e0ae6.jpg", "https://a.radikal.ru/a07/2011/40/c406fb23dbea.jpg", "https://d.radikal.ru/d10/2011/74/b4896babc660.jpg", "https://a.radikal.ru/a22/2011/ea/11d720d52f4a.jpg", "https://a.radikal.ru/a06/2011/0a/21646dd65c92.jpg"]
+                    },
+                    "price": "3790",
+                    "description": "Высота каблука: 11 см, высота подошвы: 0,5 см; цвет: красный; состав: натуральная замша, полиуретан",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "37", "38", "39"],
+                    "color": ["red"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "V256З286P1",
+                    "name": "оранжевые кожаные слингбэки",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c03/2010/bc/26655955aa0a.jpg", "https://c.radikal.ru/c25/2010/16/57a81ff52bcd.jpg", "https://d.radikal.ru/d03/2010/57/f14982a831d8.jpg", "https://c.radikal.ru/c04/2010/56/0a181adfeb2b.jpg", "https://c.radikal.ru/c08/2010/6b/0dcc2aec63ed.jpg"],
+                        "origin": ["https://d.radikal.ru/d24/2011/46/56c8a9373e64.jpg", "https://a.radikal.ru/a36/2011/a3/367ca71d0b7b.jpg", "https://d.radikal.ru/d24/2011/ce/deba94ea1ca9.jpg", "https://b.radikal.ru/b32/2011/cf/5a861b73ec0d.jpg", "https://d.radikal.ru/d01/2011/b4/803b5d4c693d.jpg"]
+                    },
+                    "price": "1914",
+                    "description": "Застежка: резинка, липучка; фурнитура: пластиковая; декор: узор-лого на резинке, патч-лого, фигурный каблук; высота каблука: 9,5 см; высота подошвы: 0,5 см; цвет: красный, черный; состав: натуральная кожа, полиуретан, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "39", "40"],
+                    "color": ["red", "black"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "PRFDS0003",
+                    "name": "черные кожаные лоферы",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a29/2010/25/66d4e6b0335a.jpg", "https://c.radikal.ru/c42/2010/61/71b91836bd93.jpg", "https://d.radikal.ru/d05/2010/43/37f4904be730.jpg", "https://b.radikal.ru/b22/2010/00/bc33919bedf0.jpg", "https://a.radikal.ru/a43/2010/7e/7781ffd7b377.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "2490",
+                    "description": "Высота каблука: 4 см; высота подошвы: 2 см; цвет: черный; состав: натуральная кожа, резина, текстиль",
+                    "mainCategory": "shoes",  
+                    "subCategory":  "lowshoes", 
+                    "size": ["36", "37", "38", "39", "40"],
+                    "color": ["black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "A00050GAXA",
+                    "name": "бежевые кюлоты P-ACAY-DT",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c28/2011/24/2e7817c49188.jpg", "https://d.radikal.ru/d36/2011/79/825e314c944f.jpg", "https://c.radikal.ru/c29/2011/95/e8c82c46673c.jpg", "https://d.radikal.ru/d42/2011/35/10f910973e82.jpg", "https://b.radikal.ru/b37/2011/57/7f8eb3e269cc.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "1790",
+                    "description": "Карманы: четыре кармана; декор: комбинация материалов, потертости, необработанный низ, патч-лог; застежка: пуговица, молния; длина штанины: 87 см; обхват пояса: 72 см; цвет: бежевый; состав: 100% хлопок",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["S", "M", "XL"],
+                    "color": ["nude"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "00S6G009GZ",
+                    "name": "голубые джинсы D-REGGY",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d13/2011/44/0cea127c53e5.jpg", "https://c.radikal.ru/c42/2011/06/6ad0f212205e.jpg", "https://c.radikal.ru/c15/2011/88/5d2c097561e2.jpg", "https://c.radikal.ru/c13/2011/3a/d978e2c7bb74.jpg", "https://d.radikal.ru/d17/2011/22/b34b56555215.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "2150",
+                    "description": "Карманы: пять карманов; декор: патч-лого, потертости, вышитый логотип; застежка: пуговица, молния; длина штанины: 104 см; обхват пояса: 74 см; цвет: голубой; состав: 55% хлопок, 45% лиоцелл",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["blue"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "WW0WW28493",
+                    "name": "красные брюки ICON BISTRETCH WOOL",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d20/2011/5b/299ee7e33c4f.jpg", "https://c.radikal.ru/c39/2011/27/8360fc230c6e.jpg", "https://d.radikal.ru/d26/2011/f7/a2c334b30f39.jpg", "https://c.radikal.ru/c19/2011/11/9124752acf17.jpg", "https://b.radikal.ru/b41/2011/07/c8cbd2e9ac3f.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "1990",
+                    "description": "Карманы: три кармана; декор: контрастные лампасы с золотистой отделкой швов, стрелки, вышитый логотип; застежка: эластичный пояс, завязки; длина штанины: 105 см; обхват пояса: 70 см; цвет: красный; состав: 53% полиэстер, 43% шерсть, 4% эластан",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "trousers", 
+                    "size": ["XS", "S", "M"],
+                    "color": ["red"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "W112070108",
+                    "name": "зеленый жакет",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a34/2011/e7/e14029c765a3.jpg", "https://d.radikal.ru/d36/2011/1c/825ddf1d13e8.jpg", "https://a.radikal.ru/a05/2011/e6/a01c1128cd07.jpg", "https://d.radikal.ru/d27/2011/9c/9213dbe5c88b.jpg", "https://a.radikal.ru/a29/2011/a3/a648508164fe.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg", "https://d.radikal.ru/d15/2011/fd/75605dd0a285.jpg", "https://a.radikal.ru/a08/2011/1c/5fa2f3200588.jpg"]
+                    },
+                    "price": "990",
+                    "description": "Длина изделия: удлиненная; длина рукава: три четверти; воротник: отложной; цвет: зеленый; состав: 55% лен, 45% вискоза",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["XS", "M", "XL"],
+                    "color": ["green"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1B14JZ8041",
+                    "name": "серый жакет",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a07/2011/90/af152ce6b585.jpg", "https://d.radikal.ru/d10/2011/8a/cb5457f8d4e1.jpg", "https://c.radikal.ru/c28/2011/ab/8f2fd1ec78ee.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "2400",
+                    "description": "Застежка: пуговицы; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: отложной; карманы: два кармана; цвет: серый; состав: 48% хлопок, 30% вискоза, 22% шерсть",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["M", "XL"],
+                    "color": ["grey"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1B4770088",
+                    "name": "шерстяной блейзер в клетку LONGLINE CHECKED",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d06/2011/1a/db1c7222ab99.jpg", "https://d.radikal.ru/d08/2011/30/96b6efe26899.jpg", "https://d.radikal.ru/d02/2011/30/5e0393c2752c.jpg", "https://c.radikal.ru/c39/2011/c4/451b5b58add1.jpg", "https://b.radikal.ru/b08/2011/f2/99d780704896.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "3640",
+                    "description": "Застежка: пуговицы; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: отложной; карманы: два внешних, один внутренний; цвет: бежевый, разноцветный, красный; состав: 51% шерсть, 49% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "blazers", 
+                    "size": ["XS", "S", "M"],
+                    "color": ["nude", "multicolor", "red"], 
+                    "new": false, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "23668P0001",
+                    "name": "бежевый пуховик",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d10/2011/82/792c10df75d4.jpg", "https://d.radikal.ru/d04/2011/8c/7fcf5f4601f3.jpg", "https://a.radikal.ru/a31/2011/4b/01ac0d4d574d.jpg", "https://b.radikal.ru/b25/2011/e3/11740cc5a524.jpg", "https://c.radikal.ru/c03/2011/d0/ef31aed9ea4e.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "5990",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: бежевый; состав: 100% полиэстер, 80% утиный пух, 20% утиное перо",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "S", "M", "L"],
+                    "color": ["nude"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "JD688P000U",
+                    "name": "желтый пуховик",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b40/2011/bc/69359d3b12c4.jpg", "https://b.radikal.ru/b34/2011/f0/3a569f095546.jpg", "https://d.radikal.ru/d36/2011/29/9d378798d0b0.jpg", "https://d.radikal.ru/d11/2011/eb/0d59ab9198f7.jpg", "https://b.radikal.ru/b23/2011/6a/641e4c9a8101.jpg"],
+                        "origin": ["https://c.radikal.ru/c31/2011/72/5a7654cf1d9b.jpg", "https://a.radikal.ru/a34/2011/32/d0c1654f7b7c.jpg", "https://c.radikal.ru/c02/2011/36/320cf8c5f85a.jpg"]
+                    },
+                    "price": "4990",
+                    "description": "вшитый капюшон; Застежка: молния; длина изделия: средняя длинна; фурнитура: металлическая; декор: принт, брендированный пуллер; воротник: стойка; карманы: два кармана; цвет: желтый; состав: 100% нейлон; 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "S", "M", "L"],
+                    "color": ["multicolor"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": false
+                },
+                {
+                    "id": "A00540WAZL",
+                    "name": "куртка W-EMMICK",
+                    "image": {
+                        "thumb": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"],
+                        "origin": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"]
+                    },
+                    "price": "3450",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: мультиколор; состав: 100% полиэстер, 80% утиный пух, 20% утиное перо",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "jackets", 
+                    "size": ["XS", "L"],
+                    "color": ["multicolor"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "00SK11BGQCU",
+                    "name": "бежевый тренч G-BERYL",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a12/2011/6e/1cc988298a79.jpg", "https://b.radikal.ru/b43/2011/7e/e26b479fb51f.jpg", "https://b.radikal.ru/b36/2011/19/d17de218d069.jpg", "https://a.radikal.ru/a10/2011/47/422efac4e3ce.jpg", "https://c.radikal.ru/c08/2011/92/14812da1cfb0.jpg"],
+                        "origin": ["https://c.radikal.ru/c36/2011/41/21425bde94e3.jpg", "https://a.radikal.ru/a10/2011/91/43d1f4298f6b.jpg", "https://c.radikal.ru/c12/2011/70/74bfb5c1ddfb.jpg", "https://b.radikal.ru/b34/2011/85/794517c1b9be.jpg", "https://c.radikal.ru/c28/2011/24/3c891a11231e.jpg"]
+                    },
+                    "price": "4450",
+                    "description": "Застежка: молния; длина изделия: средняя длинна; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: желтый; состав: 400% полиэстер, 100% хлопок",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "coats", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["nude", "yellow"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                }, 
+                {
+                    "id": "49565Y2912M",
+                    "name": "серое пальто",
+                    "image": {
+                        "thumb": ["https://d.radikal.ru/d10/2011/8b/7580e408aad5.jpg", "https://d.radikal.ru/d04/2011/07/d00a154d7802.jpg", "https://a.radikal.ru/a31/2011/be/41e0d541140d.jpg"],
+                        "origin": ["https://d.radikal.ru/d10/2011/8b/7580e408aad5.jpg", "https://d.radikal.ru/d04/2011/07/d00a154d7802.jpg", "https://a.radikal.ru/a31/2011/be/41e0d541140d.jpg"]
+                    },
+                    "price": "1480",
+                    "description": "Застежка: пуговицы; длина изделия: удлененная; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: серый; состав: 60% полиэстер, 40% шерсть",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "coats", 
+                    "size": ["S", "M", "L", "XL"],
+                    "color": ["grey"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "4876TR29120",
+                    "name": "шерстяное пальто в клетку CHECKED WOOL BLEND",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a25/2011/88/8ed7b16e85ce.jpg", "https://b.radikal.ru/b03/2011/99/ec81e9216394.jpg", "https://c.radikal.ru/c30/2011/f5/6486275abb2b.jpg", "https://b.radikal.ru/b33/2011/69/be3d0d0bce0c.jpg", "https://d.radikal.ru/d17/2011/8f/17aecdd49166.jpg"],
+                        "origin": ["https://a.radikal.ru/a25/2011/88/8ed7b16e85ce.jpg", "https://b.radikal.ru/b03/2011/99/ec81e9216394.jpg", "https://c.radikal.ru/c30/2011/f5/6486275abb2b.jpg", "https://b.radikal.ru/b33/2011/69/be3d0d0bce0c.jpg", "https://d.radikal.ru/d17/2011/8f/17aecdd49166.jpg"]
+                    },
+                    "price": "8400",
+                    "description": "Застежка: пуговицы; длина изделия: удлененная; фурнитура: пластиковая; воротник: стойка; карманы: два кармана; цвет: серый; состав: 60% полиэстер, 40% шерсть",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "coats", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["grey", "multicolor", "nude"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": false
+                },
+                {
+                    "id": "K20K202435",
+                    "name": "платье c узором LS BUTTON UP",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a01/2011/4e/abdb5a00eeb1.jpg", "https://b.radikal.ru/b42/2011/26/d8428ebf2d8f.jpg", "https://d.radikal.ru/d26/2011/7d/03bbcd0be1d0.jpg", "https://a.radikal.ru/a19/2011/03/db3f09e82575.jpg", "https://b.radikal.ru/b37/2011/c3/246aed6786e7.jpg"],
+                        "origin": ["https://a.radikal.ru/a01/2011/4e/abdb5a00eeb1.jpg", "https://b.radikal.ru/b42/2011/26/d8428ebf2d8f.jpg", "https://d.radikal.ru/d26/2011/7d/03bbcd0be1d0.jpg", "https://a.radikal.ru/a19/2011/03/db3f09e82575.jpg", "https://b.radikal.ru/b37/2011/c3/246aed6786e7.jpg"]
+                    },
+                    "price": "2300",
+                    "description": "Застежка: пуговицы, молния; длина изделия: 124 см; фурнитура: пластиковая, металлическая; воротник: стойка; карманы: два кармана; цвет: коричневый; состав: 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "dresses", 
+                    "size": ["XS", "S", "L", "XL"],
+                    "color": ["nude", "black"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "777K202435",
+                    "name": "платье с узором KELLY",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a40/2011/28/98c31d52201f.jpg", "https://c.radikal.ru/c28/2011/a0/d0f9b39ecacc.jpg", "https://b.radikal.ru/b02/2011/1d/154edf3d2896.jpg", "https://b.radikal.ru/b24/2011/f0/dcaed309b7ab.jpg", "https://a.radikal.ru/a17/2011/7b/a0393303c9cb.jpg"],
+                        "origin": ["https://a.radikal.ru/a40/2011/28/98c31d52201f.jpg", "https://c.radikal.ru/c28/2011/a0/d0f9b39ecacc.jpg", "https://b.radikal.ru/b02/2011/1d/154edf3d2896.jpg", "https://b.radikal.ru/b24/2011/f0/dcaed309b7ab.jpg", "https://a.radikal.ru/a17/2011/7b/a0393303c9cb.jpg"]
+                    },
+                    "price": "1690",
+                    "description": "Застежка: пуговицы, молния; длина изделия: 104 см; фурнитура: пластиковая, металлическая; воротник: стойка; цвет: черный; состав: 100% полиэстер",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "dresses", 
+                    "size": ["XS", "M", "L", "XL"],
+                    "color": ["multicolor", "black"], 
+                    "new": false, 
+                    "sale": true, 
+                    "bestseller": true
+                },
+                {
+                    "id": "504373UU538",
+                    "name": "голубой свитер",
+                    "image": {
+                        "thumb": ["https://a.radikal.ru/a26/2011/c2/2b94817789ba.jpg", "https://d.radikal.ru/d03/2011/f3/6c876fe203d0.jpg", "https://c.radikal.ru/c15/2011/5e/dd0b2defed3d.jpg", "https://c.radikal.ru/c12/2011/b0/dbbf9b4e5afe.jpg", "https://d.radikal.ru/d30/2011/27/e6beb2e143fd.jpg"],
+                        "origin": ["https://a.radikal.ru/a26/2011/c2/2b94817789ba.jpg", "https://d.radikal.ru/d03/2011/f3/6c876fe203d0.jpg", "https://c.radikal.ru/c15/2011/5e/dd0b2defed3d.jpg", "https://c.radikal.ru/c12/2011/b0/dbbf9b4e5afe.jpg", "https://d.radikal.ru/d30/2011/27/e6beb2e143fd.jpg"]
+                    },
+                    "price": "1200",
+                    "description": "Застежка: нет; длина изделия: средняя длина; фурнитура: пластиковая, металлическая; воротник: стойка; цвет: голубой; состав: 50% полиэстер, 50% шерсть альпаки",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "sweaters", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["blue"], 
+                    "new": true, 
+                    "sale": false, 
+                    "bestseller": true
+                },
+                {
+                    "id": "1GF71Y0002",
+                    "name": "бежевый свитер Made&Crafted",
+                    "image": {
+                        "thumb": ["https://b.radikal.ru/b40/2011/95/b8f1950884b8.jpg", "https://b.radikal.ru/b33/2011/68/8500421ae0d4.jpg", "https://a.radikal.ru/a02/2011/52/74a7da00f8a2.jpg", "https://a.radikal.ru/a24/2011/eb/544f9d47eedf.jpg", "https://b.radikal.ru/b23/2011/54/c24d1dbf5191.jpg"],
+                        "origin": ["https://b.radikal.ru/b40/2011/95/b8f1950884b8.jpg", "https://b.radikal.ru/b33/2011/68/8500421ae0d4.jpg", "https://a.radikal.ru/a02/2011/52/74a7da00f8a2.jpg", "https://a.radikal.ru/a24/2011/eb/544f9d47eedf.jpg", "https://b.radikal.ru/b23/2011/54/c24d1dbf5191.jpg"]
+                    },
+                    "price": "2400",
+                    "description": "Застежка: молния; длина изделия: средняя длина; фурнитура: пластиковая; воротник: стойка; цвет: бежевый; состав: 50% полиэстер, 50% шерсть альпаки",
+                    "mainCategory": "clothes",  
+                    "subCategory":  "sweaters", 
+                    "size": ["XS", "S", "M", "L", "XL"],
+                    "color": ["nude"], 
+                    "new": true, 
+                    "sale": true, 
+                    "bestseller": true
+                }
+
+            ]       
+}
+            

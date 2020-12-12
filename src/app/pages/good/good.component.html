@@ -1,0 +1,96 @@
+<div class="container">
+    <div class="good-grid">
+        <div class="good-grid__item">
+            <div class="good__images">
+                <div class="good__images_main-image"><lib-ngx-image-zoom [thumbImage]=mainphoto [fullImage]=mainphoto [magnification]=1.5 style="width: 100%;">
+                    
+                    
+                    <!-- <img class="main-image__photo" src="../../../assets/images-temporary/boots/image-1.jpg" alt="photo"> -->
+                </lib-ngx-image-zoom></div>
+                <div class="good__images_carousel">
+                    <div (click)="changeMainPhoto(image)" *ngFor="let image of good.image.thumb" class="carousel__cell"><img class="carousel__cell_image" src="{{image}}" alt="photo"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="good-grid__item">
+            <div class="good__description">
+                <!-- будет интерполяция из объекта карточки -->
+                <div class="good__description_name">{{good.name}}</div>
+                <div *ngIf="good.sale" class="good__description_price_discount">{{getDiscount(good.price, .3)}}<span>.00 грн</span></div>
+                <div *ngIf="!good.sale" class="good__description_price">{{good.price}}<span>.00 грн</span></div>
+                <div *ngIf="good.sale" class="good__description_price_oldprice">{{good.price}}<span>.00 грн</span></div>
+                <div class="good__description_code">Артикул товара: <span>{{good.id}}</span></div>
+                <div class="good__description_text">{{good.description}}</div>
+
+                <div class="good__description_size clothes">
+                    <span class="size__title">Выберите размер</span>
+                    <div class="size__grid">
+                        <div  (click)="getSize(size)" *ngFor="let size of good.size" [class.active]="size == activeSize" class="size__grid_item">{{size}}</div>
+
+                    </div>
+                    <div class="good__description_size-table"><a routerLink="/information" fragment="size-grid">Таблица размеров</a></div>
+                </div>
+
+                <button mat-button (click)="openDialog()" (click)="addToCard(good)" (click)="inc()" class="good__description_buy">Купить</button>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+
+
+<div class="goods-slider">
+    <div class="goods-slider__title">Вам может понравиться</div>
+    <div class="goods-slider__line"></div>
+
+    <div class="goods-slider__carousel-block">
+        <carousel class="goods-slider__carousel" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'550'">
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[0])" routerLink="/catalog/good/{{goodsSlider[0].id}}"><app-card [goodInfo]="goodsSlider[0]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[1])" routerLink="/catalog/good/{{goodsSlider[1].id}}"><app-card [goodInfo]="goodsSlider[1]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[2])" routerLink="/catalog/good/{{goodsSlider[2].id}}"><app-card [goodInfo]="goodsSlider[2]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[3])" routerLink="/catalog/good/{{goodsSlider[3].id}}"><app-card [goodInfo]="goodsSlider[3]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[4])" routerLink="/catalog/good/{{goodsSlider[4].id}}"><app-card [goodInfo]="goodsSlider[4]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[5])" routerLink="/catalog/good/{{goodsSlider[5].id}}"><app-card [goodInfo]="goodsSlider[5]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[6])" routerLink="/catalog/good/{{goodsSlider[6].id}}"><app-card [goodInfo]="goodsSlider[6]"></app-card></a>
+            </div>
+            <div class="carousel-cell">
+                <a (click)="reload(goodsSlider[7])" routerLink="/catalog/good/{{goodsSlider[7].id}}"><app-card [goodInfo]="goodsSlider[7]"></app-card></a>
+            </div>
+        </carousel>
+    </div>
+
+</div>
+
+
+<!-- старый вариант слайдера -->
+<!-- <div class="good__other-goods">Вам может понравиться</div>
+    <div class="good__other-goods__line"></div>
+    <div class="good__other-goods__temporary-block">
+        <carousel cellsToShow=4 style="height: 600px; max-width: 1100px; margin: 0 auto;">
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+            <div class="carousel-cell"><app-card></app-card></div>
+        </carousel>
+        
+    </div> -->

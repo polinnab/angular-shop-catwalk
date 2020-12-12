@@ -1,0 +1,388 @@
+.container
+    width: 100%
+    max-width: 1100px
+    padding: 0 5px
+    // height: 45vw
+    margin: 0 auto
+// .promotion-slider__container
+//     height: 45vw
+.carousel 
+    &__grid
+        width: 100%
+        height: 100%
+        display: flex
+        &_col
+            height: 100%
+            width: calc( 100% / 3 )
+            & + & 
+                padding-left: 20px
+    &__blue-background
+        height: 100%
+        width: 100%
+        background-color: #cbdae1
+        position: relative
+.blue-background
+    &__text
+        max-width: 330px
+        padding:
+            top: 70px
+            left: 40px
+        font-size: 30px
+        font-weight: 300
+        color: #ffffff
+    &__buttons
+        margin:
+            top: 60px
+            left: 50px
+    &__top-line, &__middle-line, &__bottom-line
+        position: absolute
+        left: 0
+        width: 100%
+        height: 1px
+        background-color: #ffffff
+    &__top-line
+        top: 30px
+    &__middle-line
+        left: 30px
+        bottom: 70px
+        width: calc( 100% - 60px )
+    &__bottom-line
+        bottom: 30px
+    &__right-line, &__left-line 
+        position: absolute
+        top: 0
+        height: 100%
+        width: 1px
+        background-color: #ffffff
+    &__right-line
+        right: 30px
+    &__left-line 
+        left: 30px
+
+.carousel-cell
+    height: 100%
+    position: relative
+    display: flex
+    justify-content: center
+    &__text-block
+        display: flex
+        align-items: center
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        color: #313538
+    
+    &__text
+        max-width: 470px
+        margin: 30px 30px
+        // height: 45vw
+        &_reminder
+            text-transform: uppercase
+            font-size: 14px
+            font-weight: 300
+        &_main
+            margin-top: 25px
+            font-size: 34px
+            font-weight: 300
+        &_sub
+            margin-top: 50px
+            font-size: 16px
+        &_buttons
+            display: flex
+            margin-top: 30px
+        &_sale
+            display: inline-block
+            padding: 15px 25px
+            font-size: 30px
+            font-weight: bold
+            background-color: #96cbe3
+            color: #ffffff
+        &_button
+            background-color: #313538
+            color: #ffffff
+            width: 146px
+            padding: 15px 15px
+            text-transform: uppercase
+            & + & 
+                margin-left: 30px
+            &:hover
+                background-color: #969696
+                color: #ffffff
+                font-weight: bold
+                // color: #313538
+                // font-weight: bold
+                transition: .2s
+.white
+    background-color: rgba(250, 250, 250, .5)
+    color: #313538
+.second-slide
+    margin: 
+        top: -40px 
+        left: 20px
+.third-slide
+    font-size: 26px
+    color: #ffffff
+    // margin: 120px 50px
+    max-width: 350px
+    &-block
+        display: flex
+        justify-content: flex-end
+
+.about-block
+    margin: 
+        top: 140px
+    &__line
+        margin: 0 auto
+        width: 240px
+        height: 2px
+        background-color: #393939
+    &__title
+        margin-top: 65px
+        text-align: center
+        text-transform: uppercase
+        color: #545454
+        font-weight: bold
+    &__text
+        text-align: center
+        margin-top: 20px
+        color: #8d8d8d
+        font-size: 18px
+
+.categories-slider
+    max-width: 1250px
+    margin: 0 auto
+    padding: 95px 5px 105px
+    &__carousel-block
+        padding: 0 55px
+    &__carousel
+        margin: 0 auto
+        margin-top: 60px
+    &__title
+        text-align: center
+        text-transform: uppercase
+        // margin-top: 95px
+        font-weight: normal
+        font-size: 17px
+        color: #313538
+    &__line
+        margin: 0 auto
+        width: 240px
+        height: 2px
+        margin-top: 13px
+        background-color: #313538
+    &__cell
+        &__text-block
+            text-align: center
+            position: absolute
+            bottom: 40px
+            padding: 20px
+            background-color: rgba(255, 255, 255, .7)
+            color: #313538
+            &:hover
+                cursor: pointer
+            &_bold
+                font-weight: bold
+                text-transform: uppercase
+                font-size: 16px
+
+.information
+    padding: 80px 5px 125px
+    color: #ffffff
+    font-weight: 300
+    font-size: 14px
+    background-image: url(../../../assets/images-temporary/main-information.jpg)
+    background-size: cover
+    &__container
+        max-width: 1000px
+    &__title
+        text-align: center
+        text-transform: uppercase
+        font-weight: normal
+        font-size: 17px
+    &__line
+        margin: 0 auto
+        width: 240px
+        height: 2px
+        margin-top: 13px
+        background-color: #ffffff
+    &__grid
+        width: 100%
+        margin: 0 auto
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        &_col
+            margin-top: 80px
+            // width: calc( 100%/3 )
+            padding: 5px
+            max-width: 265px
+            // & + & 
+            //     margin-left: 90px
+                
+        &_icon
+            font-size: 35px
+        &_title
+            margin-top: 18px
+            font-weight: bold
+            font-size: 15px
+            text-transform: uppercase
+        &_text
+            color: #dfdfdf
+            margin-top: 18px
+            
+.sales-block
+    background-color: #fafafa
+    padding: 25px 5px 90px
+    &__grid
+        width: 100%
+        display: flex
+        &__col
+            width: 50%
+            display: flex
+            align-items: center
+            height: 45vw
+    &__price
+        position: relative
+        &__item
+            position: absolute
+            top: 70px
+            color: #ffffff
+            left: 0
+            padding: 20px 15px
+            background-color: #313538
+            z-index: 888
+            &_old-price
+                text-decoration: line-through
+                color: #9fa0a2
+                font-size: 14px
+            // & + & 
+            //     position: relative
+            // &:after
+            //     content: "3900.00"
+            //     position: absolute
+            //     top: 70px
+            //     color: #ffffff
+            //     left: 0
+            //     padding: 35px 10px 20px
+            //     background-color: #313538
+    &__countdown
+        text-align: center
+        max-width: 460px
+        font-weight: 300
+        color: #313538
+        &__title
+            font-size: 37px
+            // text-transform: uppercase
+        &__line
+            margin-top: 25px
+            width: 100%
+            height: 2px
+            background-color: #313538
+        &__time
+            display: flex
+            justify-content: space-around
+            margin-top: 25px
+            color: #4c4c4c
+            &_days, &_hours, &_minutes, &_seconds
+                padding: 5px
+        &__buttons
+            margin-top: 50px
+            width: 100%
+            display: flex
+            justify-content: center
+        &__button
+            background-color: #313538
+            color: #ffffff
+            width: 146px
+            padding: 15px 15px
+            text-transform: uppercase
+            & + & 
+                margin-left: 30px
+            &:hover
+                background-color: #969696
+                transition: .2s
+                color: #ffffff
+                border-color:  #969696
+.white-countdown
+    background-color: #ffffff
+    box-sizing: border-box
+    border: 2px solid #313538
+    color: #313538
+    font-weight: bold
+
+.blog
+    margin: 0 auto
+    max-width: 1200px
+    padding: 70px 5px 110px
+    &__title
+        text-align: center
+        text-transform: uppercase
+        font-weight: normal
+        font-size: 17px
+    &__line
+        margin: 0 auto
+        width: 240px
+        height: 2px
+        margin-top: 13px
+        background-color: #313538
+    &__carousel
+        margin-top: 60px
+        & .carousel-cell
+            display: flex
+    &__description
+        position: relative
+        padding: 
+            top: 50px 
+            left: 35px 
+        &__date
+            position: absolute
+            top: 15px
+            left: 3px
+            text-transform: uppercase
+            font-size: 16px
+            color: #787878
+        &__title
+            color: #414141
+            font-size: 20px
+        &__text
+            font-size: 16px
+            margin-top: 20px
+            color: #787878
+            max-height: 70px
+            word-wrap: break-word
+            overflow: hidden
+            text-overflow: ellipsis
+        &__buttons
+            position: absolute
+            bottom: 30px
+            // margin-bottom: 30px
+
+img 
+    pointer-events: none
+
+
+
+.number
+    font-size: 25px
+    font-weight: bold
+.noun
+    margin-top: 5px
+    font-size: 15px
+    text-transform: uppercase
+    color: #8a8a8a
+        
+
+
+
+
+    // исправить
+
+
+        // 1. на картинки в слайдах поставить  pointer-events: none
+        // 2. поля ввода в вокусе сделать изменение цвета, на белый например
+
+        // 3. файл types где описать все типы
+            // 4. создать папку data base - для хранения mock-файлов. Каждый файл под разную нужду.
+            //     Массив объектов товаров, массив объектов для разных слайдеров и тд.

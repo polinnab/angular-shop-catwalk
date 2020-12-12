@@ -1,0 +1,78 @@
+<div class="container">
+    <div class="categories">
+        <div class="categories__header">Категории</div>
+        <div class="categories__content">
+            <mat-accordion class="categories__accordion">
+                <mat-expansion-panel hideToggle>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Одежда
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+
+                    <div *ngFor="let clothes of categoriesClothes" id="{{clothes.id}}" (click)="getOptions('category', clothes.id)" class="categories__clothes__item" (click)="selectedcategory = clothes" [class.active]="selectedcategory == clothes">{{clothes.label}}</div>
+                    
+
+                </mat-expansion-panel>
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                                     (closed)="panelOpenState = false">
+                </mat-expansion-panel>
+            </mat-accordion>
+            <mat-accordion class="categories__accordion">
+                <mat-expansion-panel hideToggle>
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Обувь
+                    </mat-panel-title>
+                  </mat-expansion-panel-header>
+
+                  <div *ngFor="let shoes of categoriesShoes" id="{{shoes.id}}" (click)="getOptions('category', shoes.id)" class="categories__shoues__item" (click)="selectedcategory = shoes" [class.active]="selectedcategory == shoes">{{shoes.label}}</div>
+
+
+                </mat-expansion-panel>
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                                     (closed)="panelOpenState = false">
+                </mat-expansion-panel>
+            </mat-accordion>
+
+            </div> 
+        </div>
+    </div>
+
+    <div class="color">
+        <div class="color__header">
+            <div class="color__header__title">Цвет</div>
+            <!-- <div class="color__header__icon up"><fa-icon [icon]="faAngleUp"></fa-icon></div>
+            <div class="color__header__icon down"><fa-icon [icon]="faAngleDown"></fa-icon></div> -->
+        </div>
+        <div class="color__content">
+            <ng-template ngFor let-color [ngForOf]="colors" let-i="index">
+                <input id="{{color.id}}" type="checkbox">
+                <label (click)="getOptions('colors', color.id)" for="{{color.id}}" class="color__content__label">
+                    <div class="color__content__dot"></div>
+                    <div class="color__content__text">{{color.label}}</div>
+                </label>
+            </ng-template>
+
+        </div>
+
+    </div>
+
+    <div class="size">
+        <div class="size__header">
+            <div class="size__header__title">Размер</div>
+            <!-- <div class="size__header__icon up"><fa-icon [icon]="faAngleUp"></fa-icon></div>
+            <div class="size__header__icon down"><fa-icon [icon]="faAngleDown"></fa-icon></div> -->
+        </div>
+        <div class="size__content">
+            <ng-template ngFor let-size [ngForOf]="sizes" let-i="index">
+                <input id="{{size.id}}" type="checkbox">
+                <label (click)="getOptions('sizes', size.id)" for="{{size.id}}" class="size__content__label">
+                    <div class="size__content__dot"></div>
+                    <div class="size__content__text">{{size.label}}</div>
+                </label>
+            </ng-template>
+            
+
+    </div>
+</div>

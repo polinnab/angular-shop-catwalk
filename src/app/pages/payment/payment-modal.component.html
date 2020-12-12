@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Спасибо за покупку!</h2>
+<mat-dialog-content class="mat-typography">
+  <h3>В скором времени Вам на почту прийдет уведомление о подтверждении заказа.</h3>
+  
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button class="close-button" mat-button mat-dialog-close>Закрыть</button>
+  <button class="button-to-basket" mat-button [mat-dialog-close]="true" cdkFocusInitial><a routerLink="/catalog/all">Продолжить покупки</a></button>
+</mat-dialog-actions>
+
+
+<!-- Copyright 2020 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

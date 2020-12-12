@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../discount-items/discount-items.component.sass"
+    ],
+    "names": [],
+    "file": "discount-items.component.css"
+}

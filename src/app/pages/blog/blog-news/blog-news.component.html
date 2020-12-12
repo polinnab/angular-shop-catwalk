@@ -1,0 +1,27 @@
+<div class="blog">
+    <div class="container">
+        <mat-paginator [length]="blogs.length"
+            [pageSize]="pageSize"
+            (page)="getPaginatorData($event)">
+        </mat-paginator>
+        <div *ngFor="let blog of blogs | slice: lowValue : highValue"  class="blog__grid">
+            <div class="blog__grid__col">
+                <img class="blog__grid__image" src="{{blog.image.thumb}}" alt="photo">
+            </div>
+            <div class="blog__grid__col">
+                <div class="blog__description">
+                    <div class="blog__description__date">{{blog.date}}</div>
+                    <div class="blog__description__title">{{blog.name}}</div>
+                    <div class="blog__description__text">{{blog.text}}</div>
+                    <div class="blog__description__buttons">
+                        <button class="blog__description__button"><a routerLink="{{blog.id}}">Читать</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <mat-paginator [length]="blogs.length"
+            [pageSize]="pageSize"
+            (page)="getPaginatorData($event)">
+        </mat-paginator>
+     </div>   
+</div>

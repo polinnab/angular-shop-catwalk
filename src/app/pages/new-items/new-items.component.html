@@ -1,0 +1,9 @@
+<div class="container">
+    <app-filters [goodsGoods]="goods" [goodsFiltered]="filtered" (filteredBy)="getFiltered($event)"></app-filters>
+    <div class="main-content">
+        <app-catalog [goodsFiltered]="filtered"></app-catalog>
+        
+    </div>
+
+</div>
+<!-- <app-filters ></app-filters> -->

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../new-items/new-items.component.sass"
+    ],
+    "names": [],
+    "file": "new-items.component.css"
+}

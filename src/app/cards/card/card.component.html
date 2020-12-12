@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="card__image">
+        <img class="card__image_img" src="{{goodInfo.image.thumb[0]}}" alt="photo">
+        <div *ngIf="goodInfo.sale" class="card__image_sale">Sale</div>
+    </div>
+    <div *ngIf="goodInfo.bestseller" class="card__top">
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+        <fa-icon class="card__top_item" [icon]="faStar"></fa-icon>
+    </div>
+    <div *ngIf="!goodInfo.bestseller" class="card__nontop"></div>
+    <div class="card__name">{{goodInfo.name | titlecase}}</div>
+    <div class="card__prices">
+        <div *ngIf="goodInfo.sale" class="card__price_discount">{{getDiscount(goodInfo.price, .3)}}<span>.00 грн</span></div>
+        <div *ngIf="!goodInfo.sale" class="card__price">{{goodInfo.price}}<span>.00 грн</span></div>
+        <div *ngIf="goodInfo.sale" class="card__price_oldprice">{{goodInfo.price}}<span>.00 грн</span></div>
+    </div>
+    
+
+</div>
+
+

@@ -1,0 +1,69 @@
+.container
+    max-width: 900px
+    margin: 0 auto
+
+.blog
+    padding: 30px 5px
+    &__grid
+        display: flex
+        & + & 
+            margin-top: 50px
+        &__col
+            height: 350px
+            &:first-child
+                width: 40%
+            &:last-child
+                width: 60%
+            & + & 
+                margin-left: 40px
+        &__image
+            display: block
+            width: 100%
+            height: 100%
+            object-fit: cover 
+    &__description
+        max-width: 560px
+        height: 100%
+        position: relative
+        padding: 20px 5px
+        &__date
+            text-transform: uppercase
+            font-size: 16px
+            color: #787878
+        &__title
+            margin-top: 25px
+            color: #414141
+            font-size: 22px
+        &__text
+            line-height: 1.2
+            font-size: 16px
+            margin-top: 20px
+            color: #787878
+            max-height: 78px
+            word-wrap: break-word
+            overflow: hidden
+            text-overflow: ellipsis
+        &__buttons
+            position: absolute
+            left: 0
+            bottom: 70px
+        &__button
+            background-color: #313538
+            color: #ffffff
+            width: 146px
+            padding: 15px 15px
+            text-transform: uppercase
+            & + & 
+                margin-left: 30px
+            &:hover
+                background-color: #969696
+                transition: .2s
+                color: #ffffff
+                border-color:  #969696
+
+img 
+    pointer-events: none
+    -moz-user-select: none
+    -webkit-user-select: none
+    -ms-user-select: none
+    user-select: none

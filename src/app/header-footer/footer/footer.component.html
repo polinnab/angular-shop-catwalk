@@ -1,0 +1,41 @@
+<div class="footer">
+    <div class="container">
+        <div class="footer-item all-information">
+            <h4 class="footer-item__title">информация</h4>
+            <a class="all-information__link" routerLink="/about-us">О нас</a>
+            <a class="all-information__link" routerLink="/information" fragment="payment">Оплата</a>
+            <a class="all-information__link" routerLink="/information" fragment="delivery">Доставка</a>
+            <a class="all-information__link" routerLink="/information" fragment="return-exchange">Возврат и обмен</a>
+            <a class="all-information__link" routerLink="/information" fragment="size-grid">Таблица размеров</a>
+        </div>
+        <div id="contacts" class="footer-item contacts">
+            <h4 class="footer-item__title">контакты</h4>
+            <div class="footer-item__phone">
+                <div><fa-icon class="icon" [icon]="faPhoneAlt"></fa-icon></div>
+                <div class="phone-numbers">
+                    <div class="footer-item__link"><a href="tel:+380938975627">093 - 897 - 56 - 27</a></div>
+                    <div class="footer-item__link"><a href="tel:+380938975627">067 - 897 - 56 - 27</a></div>
+                </div>
+            
+            </div>
+            <div class="footer-item__email">
+                <div><fa-icon class="icon" [icon]="faEnvelope"></fa-icon></div>
+                <div class="email-addreses">
+                    <div class="footer-item__link"><a href="mailto:abc@gmail.com">abc@gmail.com</a></div>
+                    <div class="footer-item__link"><a href="mailto:xyz@gmail.com">xyz@gmail.com</a></div>
+                </div>
+            </div>
+            <div class="footer-item__skype">
+                <div><fa-icon class="icon" [icon]="faSkype"></fa-icon></div>
+                <div class="skype-logins">
+                    <div class="footer-item__link"><a href="skype:+1234567890?call">catwalkdress</a></div>
+                    <div class="footer-item__link"><a href="skype:+1234567890?call">laura-catwalk</a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-item subscribe-form"><app-subscribe></app-subscribe></div>
+    </div>
+    <div class="allrights">2020 Polinnab</div>
+</div>
+

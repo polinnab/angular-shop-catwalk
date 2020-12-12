@@ -1,0 +1,206 @@
+.container {
+  width: 260px;
+}
+
+.categories {
+  padding: 5px 10px;
+}
+
+.categories__header {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: #313538;
+  text-transform: uppercase;
+  border-bottom: 2px solid #313538;
+}
+
+.categories__content {
+  color: #414141;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.categories__clothes__title {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.categories__clothes__title:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.categories__clothes__items > div {
+  padding: 15px 35px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.categories__clothes__items > div:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.categories__shoues__title {
+  padding: 15px 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.categories__shoues__title:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.categories__shoues__items > div {
+  padding: 15px 35px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.categories__shoues__items > div:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.color {
+  padding: 50px 10px 5px;
+}
+
+.color__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 10px;
+  color: #313538;
+  border-bottom: 2px solid #313538;
+}
+
+.color__header__title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.color__header__icon {
+  font-size: 20px;
+}
+
+.color__header:hover {
+  cursor: pointer;
+}
+
+.color__content__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.color__content__label:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.color__content__dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #787878;
+}
+
+.color__content__text {
+  color: #414141;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+input:checked + label > .color__content__dot {
+  background-color: #313538;
+  border: 1px solid #313538;
+}
+
+.size {
+  padding: 50px 10px 5px;
+}
+
+.size__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 10px;
+  color: #313538;
+  border-bottom: 2px solid #313538;
+}
+
+.size__header__title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.size__header__icon {
+  font-size: 20px;
+}
+
+.size__header:hover {
+  cursor: pointer;
+}
+
+.size__content__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.size__content__label:hover {
+  cursor: pointer;
+  color: #787878;
+}
+
+.size__content__dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #787878;
+}
+
+.size__content__text {
+  color: #414141;
+  font-size: 15px;
+  font-weight: 300;
+  padding-left: 15px;
+}
+
+input:checked + label > .size__content__dot {
+  background-color: #313538;
+  border: 1px solid #313538;
+}
+
+input {
+  display: none;
+}
+
+.categories__clothes__items {
+  display: none;
+}
+
+.down {
+  display: none;
+}
+
+img {
+  pointer-events: none;
+}
+/*# sourceMappingURL=filters.component.css.map */

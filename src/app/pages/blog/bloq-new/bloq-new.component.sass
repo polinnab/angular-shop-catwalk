@@ -1,0 +1,107 @@
+.container
+    max-width: 1200px
+    margin: 0 auto
+.blog
+    &__item
+        margin-top: 40px 
+        display: flex
+        &__image
+            // background-color: #969696
+            max-width: 40%
+            // max-width: 600px
+            margin: 0 auto
+        &__photo
+            display: block
+            width: 100%
+            height: 100%
+            object-fit: cover 
+    &__description
+        max-width: 60%
+        padding: 40px 20px
+        margin-right: 40px
+        position: relative
+        &__date
+            text-transform: uppercase
+            font-size: 16px
+            color: #787878
+        &__title
+            margin-top: 25px
+            color: #414141
+            font-size: 22px
+        &__text
+            line-height: 1.2
+            font-size: 16px
+            margin-top: 20px
+            color: #787878
+        &__buttons
+            margin-top: 50px
+        &__button
+            background-color: #313538
+            color: #ffffff
+            white-space: nowrap
+            padding: 15px 15px
+            text-transform: uppercase
+            & + & 
+                margin-left: 30px
+            &:hover
+                background-color: #969696
+                transition: .2s
+                color: #ffffff
+                border-color:  #969696
+
+//  вам может понравиться слайдер 
+.goods-slider
+    max-width: 1250px
+    margin: 0 auto
+    padding: 95px 5px 105px
+    &__line
+        margin: 0 auto
+        width: 300px
+        margin-top: 30px
+        height: 2px
+        background-color: #393939
+    &__title
+        margin-top: 65px
+        text-align: center
+        text-transform: uppercase
+        color: #545454
+        font-weight: bold
+    &__carousel-block
+        padding: 0 55px
+    &__carousel
+        margin: 0 auto
+        margin-top: 60px
+
+img 
+    pointer-events: none
+
+// .good
+//     &__other-goods
+//         text-align: center
+//         text-transform: uppercase
+//         margin-top: 140px
+//         font-weight: normal
+//         font-size: 15px
+//         color: #313538
+//         &__line
+//             margin: 0 auto
+//             width: 240px
+//             height: 2px
+//             margin-top: 13px
+//             background-color: #313538
+//         &__temporary-block
+//             padding: 65px 5px 170px
+//             display: flex
+//             margin: 0 auto
+
+
+// .carousel-cell
+//     width: 25%
+//     height: 140px
+//     padding: 5px
+//     overflow: hidden
+//     &_image
+//         display: block
+//         width: 100%
+//         height: 100%
+//         object-fit: cover  

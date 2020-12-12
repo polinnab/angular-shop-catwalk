@@ -1,0 +1,150 @@
+.container
+    width: 260px
+.categories
+    padding: 5px 10px
+    &__header
+        padding: 5px 10px
+        font-size: 16px
+        color: #313538
+        text-transform: uppercase
+        border-bottom: 2px solid #313538
+    &__content
+        color: #414141
+        font-size: 15px
+        font-weight: 300
+    &__clothes 
+        &__title
+            padding: 15px 20px
+            border-bottom: 1px solid #eeeeee
+            &:hover
+                cursor: pointer
+                color: #787878
+        &__items
+            & > div
+                padding: 15px 35px
+                border-bottom: 1px solid #eeeeee
+            & > div:hover
+                cursor: pointer
+                color: #787878
+        &__item.active
+            text-decoration: underline   
+    &__shoues 
+        &__title
+            padding: 15px 20px
+            border-bottom: 1px solid #eeeeee
+            &:hover
+                cursor: pointer
+                color: #787878
+        &__items
+            & > div
+                padding: 15px 35px
+                border-bottom: 1px solid #eeeeee
+            & > div:hover
+                cursor: pointer
+                color: #787878
+        &__item.active
+            text-decoration: underline  
+    &__accordion
+        color: #313538
+
+.color
+    padding: 50px 10px 5px
+    &__header
+        display: flex
+        justify-content: space-between
+        padding: 5px 10px
+        color: #313538
+        border-bottom: 2px solid #313538
+        &__title
+            font-size: 16px
+            text-transform: uppercase
+        &__icon
+            font-size: 20px
+        &:hover
+            cursor: pointer
+    &__content
+        &__label
+            display: flex
+            padding: 10px 5px
+            align-items: center
+            &:hover
+                cursor: pointer
+                color: #787878
+        &__dot
+            display: inline-block
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            border: 1px solid #787878 
+        &__text
+            color: #414141
+            font-size: 15px
+            font-weight: 300
+            padding-left: 15px
+
+
+input:checked + label > .color__content__dot
+    background-color: #313538
+    border: 1px solid #313538
+
+.size
+    padding: 50px 10px 5px
+    &__header
+        display: flex
+        justify-content: space-between
+        padding: 5px 10px
+        color: #313538
+        border-bottom: 2px solid #313538
+        &__title
+            font-size: 16px
+            text-transform: uppercase
+        &__icon
+            font-size: 20px
+        &:hover
+            cursor: pointer
+    &__content
+        &__label
+            display: flex
+            padding: 10px 5px
+            align-items: center
+            &:hover
+                cursor: pointer
+                color: #787878
+        &__dot
+            display: inline-block
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            border: 1px solid #787878 
+        &__text
+            color: #414141
+            font-size: 15px
+            font-weight: 300
+            padding-left: 15px
+
+input:checked + label > .size__content__dot
+    background-color: #313538
+    border: 1px solid #313538  
+
+input
+    display: none
+
+// временно закрыла, для примера
+.categories__clothes__items
+    display: none
+.down
+    display: none
+
+img 
+    pointer-events: none
+
+.categories__noneblock
+    display: none
+
+
+.categories__clothes__item, .categories__shoues__item
+    padding: 15px 35px
+    border-bottom: 1px solid #eeeeee
+    &:hover
+        cursor: pointer
+        color: #787878

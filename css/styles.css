@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+table, thead, tbody, tfoot, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
+  font-weight: inherit;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+
+*, *:before, *:after, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a, button, select {
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus {
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  pointer-events: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+* {
+  font-family: 'Ubuntu';
+}
+
+@font-face {
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format("truetype");
+  font-family: "PlayFair";
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format("truetype");
+  font-family: "PlayFair";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+}
+
+.carousel-dots {
+  margin-bottom: 20px;
+}
+
+.carousel-dots .carousel-dot {
+  border: 2px solid #313538 !important;
+}
+
+.carousel-dots .carousel-dot-active {
+  background-color: #313538 !important;
+}
+
+.carousel-cells {
+  width: 100% !important;
+}
+
+.categories-slider__carousel .carousel-arrow-next {
+  right: -50px !important;
+}
+
+.categories-slider__carousel .carousel-arrow-prev {
+  left: -50px !important;
+}
+
+.goods-slider__carousel .carousel-arrow-next {
+  right: -50px !important;
+}
+
+.goods-slider__carousel .carousel-arrow-prev {
+  left: -50px !important;
+}
+
+.blog__carousel .carousel-arrow {
+  top: -30px !important;
+  -webkit-box-shadow: 0 0 0 #ffffff !important;
+          box-shadow: 0 0 0 #ffffff !important;
+}
+
+.carousel-cell:hover {
+  cursor: pointer;
+}
+
+.sales-block__countdoun .carousel-cell:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.ngxImageZoomContainer {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ngxImageZoomThumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-content__cards__card .container:hover {
+  border: 1px solid silver;
+}
+/*# sourceMappingURL=styles.css.map */

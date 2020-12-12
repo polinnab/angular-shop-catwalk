@@ -1,0 +1,30 @@
+{
+    "discount": [
+        {
+            "id": 1,
+            "price": 789,
+            "image": "https://c.radikal.ru/c34/2012/1a/8c58034176f6.png"
+        },
+        {
+            "id": 2,
+            "price": 3790,
+            "image": "https://c.radikal.ru/c27/2012/a3/db422a5402f6.png"
+        },
+        {
+            "id": 3,
+            "price": 5870,
+            "image": "https://d.radikal.ru/d15/2012/5b/4afd213d856e.png"
+        },
+        {
+            "id": 4,
+            "price": 4790,
+            "image": "https://c.radikal.ru/c27/2012/fa/9f76fdb1d058.png"
+        },
+        {
+            "id": 5,
+            "price": 2240,
+            "image": "https://d.radikal.ru/d01/2012/ae/d135728e5c1a.png"
+        }
+        
+    ]
+}
