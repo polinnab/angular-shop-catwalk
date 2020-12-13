@@ -25,6 +25,7 @@ export class GoodComponent implements OnInit {
   message: string;
   editedmsg: string;
 
+
   selectedGood = {
     id: '',
     name: '',
@@ -40,6 +41,8 @@ export class GoodComponent implements OnInit {
 
   activeSize: string;
   sizes: string[];
+
+
 
   constructor(
     private route: ActivatedRoute,
@@ -74,6 +77,7 @@ export class GoodComponent implements OnInit {
     this.goodsService.getGoods().subscribe(goods => console.log(this.mainphoto = goods["goods"].find(good => good.id === goodroute.id).image.thumb[0]));
 
     this.router.navigate(["/catalog/good/"+goodroute.id]);
+
   };
 
 

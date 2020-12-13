@@ -25,6 +25,8 @@ export class SearchComponent implements OnInit {
   keyWord: string;
   private searchTerms = new Subject<string>();
 
+
+
   faSearch = faSearch;
   constructor(
     private goodService: GoodsService,
@@ -51,12 +53,9 @@ export class SearchComponent implements OnInit {
     );
   };
 
-  clearSearch() {
-    this.goods$ = this.searchTerms.pipe(
-      switchMap((term: string) => this.goodService.searchGoods('')),
 
-    )
-  }
+  
+
 
   
 

@@ -1,13 +1,13 @@
 <div class="container">
     <h2 class="basket__title">Оформление заказа</h2>
     <div class="basket__grid">
-        <form #myForm="ngForm" novalidate class="basket__grid__col">
+        <form [formGroup]="myForm" novalidate (ngSubmit)="submit()" class="basket__grid__col">
            <div class="basket__region">
                <div class="basket__region__name">Выберите регион доставки:</div>
                <mat-form-field appearance="fill">
                 <mat-label>Выберите город</mat-label>
-                <mat-select>
-                  <mat-option (click)="user.city = city.value" *ngFor="let city of cities" [value]="city.value" required>
+                <mat-select >
+                  <mat-option (click)="user.city = city.value" *ngFor="let city of cities" [value]="city.value" >
                     {{city.viewValue}}
                   </mat-option>
                 </mat-select>
@@ -17,8 +17,8 @@
                 <div class="basket__post-office__name">Выберите номер отделения Новой почты:</div>
                 <mat-form-field appearance="fill">
                     <mat-label>Выберите отделение</mat-label>
-                    <mat-select>
-                      <mat-option (click)="user.postoffice = post.value" *ngFor="let post of postoffices" [value]="post.value" required>
+                    <mat-select >
+                      <mat-option (click)="user.postoffice = post.value" *ngFor="let post of postoffices" [value]="post.value" >
                         {{post.viewValue}}
                       </mat-option>
                     </mat-select>
@@ -28,21 +28,25 @@
                 <mat-label class="basket__username__name"> Имя: </mat-label >
                 <mat-form-field  class = "example-full-width"> 
                      
-                    <input autocomplete="off"  matInput  placeholder = "Введите имя" (keyup)="getUserData('firstname', $event)" required> 
+                    <input autocomplete="off" formControlName="userFirstName" matInput  placeholder = "Введите имя" (keyup)="getUserData('firstname', $event)" > 
                 </mat-form-field >
+                <div class="alert alert-danger"
+                            *ngIf="myForm.controls['userFirstName'].invalid && myForm.controls['userFirstName'].touched">
+                            Не указано имя
+                </div>
             </form>
             <form class="basket__username">
                 <mat-label class="basket__username__name"> Фамилия: </mat-label >
                 <mat-form-field  class = "example-full-width"> 
                         
-                    <input autocomplete="off"  matInput  placeholder = "Введите фамилию" (keyup)="getUserData('lastname', $event)" required> 
+                    <input autocomplete="off" formControlName="userLastName" matInput  placeholder = "Введите фамилию" (keyup)="getUserData('lastname', $event)" > 
                 </mat-form-field >
             </form>
             <form class="basket__email">
                 <mat-label class="basket__email__name">Электронная почта: </mat-label >
                     <mat-form-field appearance="fill">
                         <mat-label>Введите email</mat-label>
-                        <input autocomplete="off" matInput placeholder="pat@example.com" required (keyup)="getUserData('email', $event)">
+                        <input autocomplete="off" matInput placeholder="pat@example.com" formControlName="userEmail"  (keyup)="getUserData('email', $event)">
                         <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
                     </mat-form-field>
             </form>
@@ -50,8 +54,8 @@
                 <div class="basket__payment__name">Выберите форму оплаты:</div>
                 <mat-form-field appearance="fill">
                     <mat-label >Наличные / карта</mat-label>
-                    <mat-select>
-                      <mat-option (click)="checkPayment(payment)" *ngFor="let payment of payments" [value]="payment.value" required>
+                    <mat-select >
+                      <mat-option (click)="checkPayment(payment)" *ngFor="let payment of payments" [value]="payment.value"  >
                         {{payment.viewValue}}
                       </mat-option>
                     </mat-select>
@@ -81,7 +85,7 @@
                         </div>
                     </div>
                     <div class="goods__card_grid-col">
-                        <div *ngIf="good.quantity > 1" (click)="minusGood(good)" (click)="incMinus()" class="good__addless">-</div>
+                        <div *ngIf="good.quantity > 1" (click)="minusGood(good)" class="good__addless">-</div>
                         <div *ngIf="good.quantity == 1" class="good__nominus"></div>
                         <div class="good__quantity">{{good.quantity}}</div>
                         <div (click)="plusGood(good)" (click)="inc()" class="good__addmore">+</div>
@@ -94,7 +98,7 @@
                                 <div *ngIf="!good.sale" class="good__price__new">{{good.allprice}}<span>.00</span></div>
                                 <div *ngIf="good.sale" class="good__price__new">{{getDiscount(good.allprice, .3)}}<span>.00</span></div>
                             </div>
-                            <div (click)="deleteGood(good)" (click)="incMinus()" class="good__delete"><fa-icon [icon]="faTrashAlt"></fa-icon></div>
+                            <div (click)="deleteGood(good)" class="good__delete"><fa-icon [icon]="faTrashAlt"></fa-icon></div>
                         </div>
                     </div>
                     

@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { AngularCountdownDateTimeModule } from 'angular-countdown-date-time';
-
+import { ReactiveFormsModule }   from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
@@ -91,7 +91,8 @@ import { PaymentComponent, PaymentModalComponent } from './pages/payment/payment
     NgxImageZoomModule, BrowserAnimationsModule,
     MatDialogModule,
     MatPaginatorModule,
-    AngularCountdownDateTimeModule
+    AngularCountdownDateTimeModule,
+    ReactiveFormsModule
   ],
   providers: [  ],
   bootstrap: [AppComponent],

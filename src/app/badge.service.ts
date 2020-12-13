@@ -37,6 +37,11 @@ export class BadgeService {
 
   }
 
+  incDelGood(quantity) {
+    sessionStorage.setItem('sumgoods', String( Number( this.getCount() ) - quantity) );
+    this.observer.next(this.getCount());
+  }
+
   clearCounter() {
     sessionStorage.setItem('sumgoods', String(0) );
     this.observer.next(this.getCount());

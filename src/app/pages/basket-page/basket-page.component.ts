@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import {FormControl, Validators} from '@angular/forms';
+import { FormGroup, FormControl, Validators} from '@angular/forms';
 import {MatDialog} from '@angular/material/dialog';
 import { ActivatedRoute, Router } from "@angular/router";
 import { BadgeService } from "../../badge.service";
+
 
 
 
@@ -99,6 +100,10 @@ export class BasketPageComponent implements OnInit {
     payment: ""
   }
 
+  myForm : FormGroup;
+
+  
+
 //  TODO:  Блок с выводом ошибки при неправильном емейл. Поправить потом!
   email = new FormControl('', [Validators.required, Validators.email]);
 
@@ -126,7 +131,20 @@ export class BasketPageComponent implements OnInit {
     private route: ActivatedRoute,
     private router: Router,
     private counter: BadgeService
-  ) { }
+  ) { 
+    this.myForm = new FormGroup({
+             
+      'userFirstName': new FormControl("", Validators.minLength(3)),
+      'userLastName': new FormControl("", Validators.minLength(3)),
+      'userEmail': new FormControl("", [
+        Validators.required, 
+        Validators.email
+      ]),
+      'userCity': new FormControl("", Validators.required),
+      'userPostoffice': new FormControl("", Validators.required),
+      'userPayment': new FormControl("", Validators.required)
+  });
+  }
 
   ngOnInit(): void {
     this.getFromLocalStorage();
@@ -150,9 +168,12 @@ export class BasketPageComponent implements OnInit {
         if (elem.sale) {
           let elsum = +elem.price * elem.quantity
           this.sum = this.sum - +this.getDiscount(elsum, .3);
+          this.incDelGood(elem.quantity);
         } else {
           let elsum = +elem.price * elem.quantity
           this.sum = this.sum - elsum;
+          this.incDelGood(elem.quantity);
+
         };
         if (elem.sale) {
           let discsumone = +elem.price - +this.getDiscount(elem.price, .3);
@@ -191,11 +212,12 @@ export class BasketPageComponent implements OnInit {
 
       }
     });
+    
     localStorage.setItem('allgoods', JSON.stringify(this.allGoods));
     console.log(this.allGoods);
     
 
-
+    this.incMinus();
   };
 
   plusGood(good) {
@@ -294,6 +316,10 @@ export class BasketPageComponent implements OnInit {
     console.log(this.payment)
   };
 
+  submit(){
+    console.log(this.myForm);
+  }
+
   inc() {
     this.counter.incCounter()
   };
@@ -302,9 +328,14 @@ export class BasketPageComponent implements OnInit {
     this.counter.incCounterMinus()
   }
 
+  incDelGood(quantity) {
+    this.counter.incDelGood(quantity);
+  }
+
   clearCounter() {
     this.counter.clearCounter()
   }
+
 
 
 }
