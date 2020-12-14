@@ -41,7 +41,7 @@ export class GoodComponent implements OnInit {
 
   activeSize: string;
   sizes: string[];
-
+  arrorSize = false;
 
 
   constructor(
@@ -58,6 +58,7 @@ export class GoodComponent implements OnInit {
   ngOnInit(): void {
     this.getGood();
     this.getMainPhoto();
+    this.setLocalstorage();
     this.getLocal();
     this.getGoods();
     this.getSumInCard();
@@ -66,7 +67,10 @@ export class GoodComponent implements OnInit {
   };
 
   inc() {
-    this.counter.incCounter();
+    if (this.activeSize) {
+      this.counter.incCounter();
+    }
+    
   }
 
 
@@ -82,11 +86,17 @@ export class GoodComponent implements OnInit {
 
 
   openDialog() {
-    const dialogRef = this.dialog.open(GoodModalComponent);
+    if (this.activeSize) {
+      const dialogRef = this.dialog.open(GoodModalComponent);
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
+      dialogRef.afterClosed().subscribe(result => {
+        console.log(`Dialog result: ${result}`);
+      });
+      this.arrorSize = false
+    } else {
+      this.arrorSize = true
+    }
+    
   };
 
   getDiscount(price, num): any {
@@ -130,47 +140,51 @@ export class GoodComponent implements OnInit {
 
   };
 
-  addToCard(good) {
-    if (!this.allGoods.length) {
-      this.selectedGood.id = good.id;
-      this.selectedGood.name = good.name;
-      this.selectedGood.price = good.price;
-      this.selectedGood.image = good.image.thumb[0];
-      this.selectedGood.quantity = 1;
-      this.selectedGood.allprice = +good.price;
-      this.selectedGood.sale = good.sale
-      this.allGoods.push(this.selectedGood);
-      this.getSumInCard();
-
-      console.log('сработала функция с нуля')
-    } else  if (this.allGoods.find(el => good.id == el.id && this.selectedGood.size == el.size )) {
-      console.log('начало перебора...')
-      this.allGoods.find(el => {
-        if (good.id == el.id && this.selectedGood.size == el.size) {
-          console.log(el.id);
-          console.log(good.id);
-          el.quantity = el.quantity + 1;
-          el.allprice = +el.allprice + +el.price;
-          this.getSumInCard();
-          console.log(el);
-          console.log('сработала функция увеличения кол-ва')
-        }
-      });
-      console.log('сработала функция увеличения кол-ва')
-    } else {
-          this.selectedGood.id = good.id;
-          this.selectedGood.name = good.name;
-          this.selectedGood.price = good.price;
-          this.selectedGood.image = good.image.thumb[0];
-          this.selectedGood.quantity = 1;
-          this.selectedGood.allprice = +good.price;
-          this.selectedGood.sale = good.sale;
-          this.allGoods.push(this.selectedGood);
-          this.getSumInCard();
-          console.log('сработало добавление нового товара, совпадений не найдено')
+  addToCard(good) { 
+    console.log('я активный размер при добавлении в карту', this.activeSize)
+    if (this.activeSize) {
+      if (!this.allGoods.length) {
+        this.selectedGood.id = good.id;
+        this.selectedGood.name = good.name;
+        this.selectedGood.price = good.price;
+        this.selectedGood.image = good.image.thumb[0];
+        this.selectedGood.quantity = 1;
+        this.selectedGood.allprice = +good.price;
+        this.selectedGood.sale = good.sale
+        this.allGoods.push(this.selectedGood);
+        this.getSumInCard();
+  
+        console.log('сработала функция с нуля')
+      } else  if (this.allGoods.find(el => good.id == el.id && this.selectedGood.size == el.size )) {
+        console.log('начало перебора...')
+        this.allGoods.find(el => {
+          if (good.id == el.id && this.selectedGood.size == el.size) {
+            console.log(el.id);
+            console.log(good.id);
+            el.quantity = el.quantity + 1;
+            el.allprice = +el.allprice + +el.price;
+            this.getSumInCard();
+            console.log(el);
+            console.log('сработала функция увеличения кол-ва')
+          }
+        });
+        console.log('сработала функция увеличения кол-ва')
+      } else {
+            this.selectedGood.id = good.id;
+            this.selectedGood.name = good.name;
+            this.selectedGood.price = good.price;
+            this.selectedGood.image = good.image.thumb[0];
+            this.selectedGood.quantity = 1;
+            this.selectedGood.allprice = +good.price;
+            this.selectedGood.sale = good.sale;
+            this.allGoods.push(this.selectedGood);
+            this.getSumInCard();
+            console.log('сработало добавление нового товара, совпадений не найдено')
+      }
+      console.log('Добавлено ли новое в allGoods: ', this.allGoods);
+      this.setLocalstorage();
     }
-    console.log('Добавлено ли новое в allGoods: ', this.allGoods);
-    this.setLocalstorage();
+    
   };
 
 

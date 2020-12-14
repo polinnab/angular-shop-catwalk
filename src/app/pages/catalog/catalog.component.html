@@ -1,7 +1,7 @@
 <div class="container">
  <!-- <app-filters [goodsFiltered]="goods"></app-filters> -->
     <div class="main-content">
-        <div class="main-content__sorting">
+        <div *ngIf="goodsFiltered" class="main-content__sorting">
             <mat-form-field appearance="fill">
                 <mat-label>Сортировать от</mat-label>
                 <mat-select (selectionChange)="getByPrice($event)">
@@ -10,10 +10,10 @@
                   </mat-option>
                 </mat-select>
             </mat-form-field>
-            <mat-paginator *ngIf="goodsFiltered.length > 20" [length]="goodsFiltered.length"
-                            [pageSize]="pageSize"
-                            (page)="getPaginatorData($event)">
-            </mat-paginator>
+                <mat-paginator *ngIf="goodsFiltered.length > 20" [length]="goodsFiltered.length"
+                                [pageSize]="pageSize"
+                                (page)="getPaginatorData($event)">
+                </mat-paginator>
         </div>
         <div class="main-content__cards">
             <div *ngFor="let good of goodsFiltered | slice: lowValue : highValue" class="main-content__cards__item">
@@ -21,17 +21,19 @@
             </div>
             
         </div>
-        <div *ngIf="!goodsFiltered.length" >
-            <div class="error__card">
-                <div class="error-text">По Вашему запросу товаров не найдено</div>
-                <img class="error-image" src="../../../assets/images-temporary/good-not-found.jpg" alt="image">
+        <div *ngIf="goodsFiltered" class="wrap">
+            <div *ngIf="!goodsFiltered.length" >
+                <div class="error__card">
+                    <div class="error-text">По Вашему запросу товаров не найдено</div>
+                    <img class="error-image" src="../../../assets/images-temporary/good-not-found.jpg" alt="image">
+                </div>
+
             </div>
-            
+            <mat-paginator *ngIf="goodsFiltered.length > 20" [length]="goodsFiltered.length"
+                [pageSize]="pageSize"
+                (page)="getPaginatorData($event)">
+            </mat-paginator>
         </div>
-        <mat-paginator *ngIf="goodsFiltered.length > 20" [length]="goodsFiltered.length"
-            [pageSize]="pageSize"
-            (page)="getPaginatorData($event)">
-        </mat-paginator>
     </div>
 
 </div>

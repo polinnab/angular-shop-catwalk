@@ -1,14 +1,14 @@
 <div class="container">
     <div class="blog__item">
-        <div class="blog__item__image">
+        <div *ngIf="blog" class="blog__item__image">
             <img class="blog__item__photo" src="{{blog.image.origin}}" alt="photo">
         </div>
-        <div class="blog__description">
+        <div *ngIf="blog" class="blog__description">
             <div class="blog__description__date">{{blog.date}}</div>
             <div class="blog__description__title">{{blog.name}}</div>
             <div class="blog__description__text">{{blog.text}}</div>
             <div class="blog__description__buttons">
-                <button class="blog__description__button"><a routerLink="/blog">Вернуться в блог</a></button>
+                <a routerLink="/blog"><button class="blog__description__button">Вернуться в блог</button></a>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
         <div class="goods-slider__line"></div>
 
         <div class="goods-slider__carousel-block">
-            <carousel class="goods-slider__carousel" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'500'">
+            <carousel *ngIf="goodsSlider" class="goods-slider__carousel" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'500'">
                 <div class="carousel-cell">
                     <a routerLink="/catalog/good/{{goodsSlider[0].id}}"><app-card [goodInfo]="goodsSlider[0]"></app-card></a>
                 </div>

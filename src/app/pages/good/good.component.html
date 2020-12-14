@@ -1,7 +1,7 @@
 <div class="container">
     <div class="good-grid">
         <div class="good-grid__item">
-            <div class="good__images">
+            <div *ngIf="good" class="good__images">
                 <div class="good__images_main-image"><lib-ngx-image-zoom [thumbImage]=mainphoto [fullImage]=mainphoto [magnification]=1.5 style="width: 100%;">
                     
                     
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </div>
-        <div class="good-grid__item">
+        <div *ngIf="good" class="good-grid__item">
             <div class="good__description">
                 <!-- будет интерполяция из объекта карточки -->
                 <div class="good__description_name">{{good.name}}</div>
@@ -27,12 +27,13 @@
                     <span class="size__title">Выберите размер</span>
                     <div class="size__grid">
                         <div  (click)="getSize(size)" *ngFor="let size of good.size" [class.active]="size == activeSize" class="size__grid_item">{{size}}</div>
-
+                        <div *ngIf="arrorSize" class="alert alert-danger alert-button">*Выберите размер</div>
                     </div>
                     <div class="good__description_size-table"><a routerLink="/information" fragment="size-grid">Таблица размеров</a></div>
                 </div>
 
                 <button mat-button (click)="openDialog()" (click)="addToCard(good)" (click)="inc()" class="good__description_buy">Купить</button>
+                
             </div>
 
         </div>
@@ -47,7 +48,7 @@
     <div class="goods-slider__line"></div>
 
     <div class="goods-slider__carousel-block">
-        <carousel class="goods-slider__carousel" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'550'">
+        <carousel *ngIf="goodsSlider" class="goods-slider__carousel" [loop]="true" [cellsToShow]="'4'" [width]="'100%'" [height]="'550'">
             <div class="carousel-cell">
                 <a (click)="reload(goodsSlider[0])" routerLink="/catalog/good/{{goodsSlider[0].id}}"><app-card [goodInfo]="goodsSlider[0]"></app-card></a>
             </div>
@@ -76,6 +77,7 @@
     </div>
 
 </div>
+
 
 
 <!-- старый вариант слайдера -->

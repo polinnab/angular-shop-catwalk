@@ -105,19 +105,19 @@ export class BasketPageComponent implements OnInit {
   
 
 //  TODO:  Блок с выводом ошибки при неправильном емейл. Поправить потом!
-  email = new FormControl('', [Validators.required, Validators.email]);
+  // email = new FormControl('', [Validators.required, Validators.email]);
 
-  getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'Введите пожалуйста email';
-    }
+  // getErrorMessage() {
+  //   if (this.email.hasError('required')) {
+  //     return 'Введите пожалуйста email';
+  //   }
 
-    return this.email.hasError('email') ? 'Неправильный формат email' : '';
-  }
+  //   return this.email.hasError('email') ? 'Неправильный формат email' : '';
+  // }
 
   // Блок с ошибкой емейла закончен
 
-
+  arror;
 
   allGoods = [];
   goodprice = 0;
@@ -134,8 +134,8 @@ export class BasketPageComponent implements OnInit {
   ) { 
     this.myForm = new FormGroup({
              
-      'userFirstName': new FormControl("", Validators.minLength(3)),
-      'userLastName': new FormControl("", Validators.minLength(3)),
+      'userFirstName': new FormControl("", [Validators.required, Validators.minLength(3)]),
+      'userLastName': new FormControl("", [Validators.required, Validators.minLength(3)]),
       'userEmail': new FormControl("", [
         Validators.required, 
         Validators.email
@@ -286,23 +286,29 @@ export class BasketPageComponent implements OnInit {
   };
 
   openDialog() {
-   
-    if (this.payment == 'cash') {
-      const dialogRef = this.dialog.open(BasketModalComponent);
-      this.user.city = '';
-      this.user.email = '';
-      this.user.firstname = '';
-      this.user.lastname = '';
-      this.user.payment = '';
-      this.user.postoffice = '';
-      dialogRef.afterClosed().subscribe(result => {
-        console.log(`Dialog result: ${result}`);
-      });
-    } else if (this.payment == 'card') {
-      this.router.navigate(["/basket/payment"]);
+    if(!this.arror) {
+      if (this.payment == 'cash') {
+        const dialogRef = this.dialog.open(BasketModalComponent);
+        this.user.city = '';
+        this.user.email = '';
+        this.user.firstname = '';
+        this.user.lastname = '';
+        this.user.payment = '';
+        this.user.postoffice = '';
+        this.allGoods = [];
+        this.sum = 0;
+        this.discountsum = 0;
+        dialogRef.afterClosed().subscribe(result => {
+          console.log(`Dialog result: ${result}`);
+        });
+        localStorage.setItem('allgoods', JSON.stringify(this.allGoods))
+      } else if (this.payment == 'card') {
+        this.router.navigate(["/basket/payment"]);
+      }
+  
+      console.log(this.user)
     }
-
-    console.log(this.user)
+   
     
   };
 
@@ -318,6 +324,15 @@ export class BasketPageComponent implements OnInit {
 
   submit(){
     console.log(this.myForm);
+  }
+
+  invForm(form) {
+    console.log('я консолю форму ', form);
+    if (form) {
+      this.arror = true
+    } else {
+      this.arror = false
+    }
   }
 
   inc() {

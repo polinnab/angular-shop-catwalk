@@ -5,7 +5,7 @@
 </mat-dialog-content>
 <mat-dialog-actions>
   <button class="close-button" mat-button mat-dialog-close>Продолжить покупки</button>
-  <button class="button-to-basket" mat-button [mat-dialog-close]="true" cdkFocusInitial><a routerLink="/basket">Перейти в корзину</a></button>
+  <a routerLink="/basket"><button class="button-to-basket" mat-button [mat-dialog-close]="true" cdkFocusInitial>Перейти в корзину</button></a>
 </mat-dialog-actions>
 
 

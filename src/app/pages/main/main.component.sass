@@ -92,6 +92,8 @@
         &_buttons
             display: flex
             margin-top: 30px
+            & a + a 
+                margin-left: 30px 
         &_sale
             display: inline-block
             padding: 15px 25px
@@ -292,12 +294,15 @@
             width: 100%
             display: flex
             justify-content: center
+            & a + a 
+                margin-left: 30px
         &__button
             background-color: #313538
             color: #ffffff
             width: 146px
             padding: 15px 15px
             text-transform: uppercase
+            height: 65px
             & + & 
                 margin-left: 30px
             &:hover
