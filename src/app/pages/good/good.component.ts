@@ -77,6 +77,7 @@ export class GoodComponent implements OnInit {
   reload(goodroute){
     console.log(goodroute.id);
     // this.getGood();
+    this.arrorSize = false;
     this.goodsService.getGoods().subscribe(goods => console.log(this.good = goods["goods"].find(good => good.id === goodroute.id)));
     this.goodsService.getGoods().subscribe(goods => console.log(this.mainphoto = goods["goods"].find(good => good.id === goodroute.id).image.thumb[0]));
 
